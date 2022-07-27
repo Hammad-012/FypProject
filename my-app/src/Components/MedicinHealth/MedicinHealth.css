@@ -1,0 +1,142 @@
+.MedicinHealth-Container{
+    max-width: 1140px;
+    margin: 0 auto;
+   
+}
+.MedicinHealth-SubContainer a{
+    text-decoration: none;
+    
+}
+.MedicinHealth-SubContainer a img {
+    margin-top: 5px;
+}
+.MedicinHealth-Heading h1 {
+    text-align: center;
+    line-height: 4pc;
+}
+.MedicinHealth-Section2{
+    display: flex;
+    column-gap: 20px;
+}
+.MedicinHealth-SubSection1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 5px;
+}
+.MedicinHealth-TextHeadingContainer{
+    max-width: 1140px;
+    margin: 0 auto;
+     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.MedicinHealthTextHeading-Container p {
+    margin: 0 0 0.75rem;
+}
+.MedicinHealth-anchor a {
+    text-decoration: none;
+    color:  #1e8558;;
+}
+.MedicinHealth-CardLogo {
+    width: 277px;
+    height: auto;
+}
+.MedicinHealth-cardText{
+    display: flex;
+    margin: 0 10px;
+}
+
+.MedicinHealthHeart-Icon{
+    font-size: 1.5rem;
+    color: #1e8558;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+.MedicinHealth-OrganizationInfo{
+    display: flex;
+}
+.interstingProgram-Heading h1{
+  text-align: center;
+  margin-top: 5px;
+}
+.DispayCoversion{
+    margin: 3em auto 1em;
+    text-align: center;
+}
+.ChampionButton{
+    align-items: center;
+    background-color: #f95c39;
+     border: 2px solid #f95c39;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1rem;
+    font-weight: 700;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5rem;
+    min-height: 3rem;
+    outline: none;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+.MedicinHealth-Section3{
+    max-width: 1140px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.MedicinHealthSub-SectionHeading h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin: 1rem 0 0.5rem;
+}
+.MedicinHealthSub-SectionHeading2{
+    display: block;
+}
+.MedicinHealthSpecilization-FiledContainer{
+    max-width: 1140px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 15px;
+}
+.MedicinHealthSpecilization-HeadingText h3 {
+    margin: 10px 0;
+    padding-top: 20px;
+}
+.MedicinHealthSpecilization-Container1{
+    margin: 10px 0;
+}
+.MedicinHealthSpecilization-Container1 ul li {
+    list-style-type: none;
+}
+.MedicinHealthSpecilization-Container1 ul li a {
+    text-decoration: none;
+    color: #1e8558;
+}
+.MedicinHealthSpecilization-Container2{
+    margin: 10px 0;
+}
+.MedicinHealthSpecilization-Container2 ul li {
+    list-style-type: none;
+}
+.MedicinHealthSpecilization-Container2 ul li a {
+    text-decoration: none;
+    color: #1e8558;
+}
+.MedicinHealthSpecilization-Container3{
+    margin: 10px 0;
+}
+.MedicinHealthSpecilization-Container3 ul li {
+    list-style-type: none;
+}
+.MedicinHealthSpecilization-Container3 ul li a {
+    text-decoration: none;
+    color: #1e8558;
+}
+.MedicinHealthSpecilization-SubFieldContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 15px 5px;
+    padding: 10px 5px;
+}

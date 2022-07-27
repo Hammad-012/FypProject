@@ -1,0 +1,142 @@
+.Agriculture-Container{
+    max-width: 1140px;
+    margin: 0 auto;
+   
+}
+.Agriculture-SubContainer a{
+    text-decoration: none;
+    
+}
+.Agriculture-SubContainer a img {
+    margin-top: 5px;
+}
+.Agriculture-Heading h1 {
+    text-align: center;
+    line-height: 4pc;
+}
+.Agriculture-Section2{
+    display: flex;
+    column-gap: 20px;
+}
+.Agriculture-SubSection1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 5px;
+}
+.AgricultureForesty-TextHeadingContainer{
+    max-width: 1140px;
+    margin: 0 auto;
+     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.AgricultureTextHeading-Container p {
+    margin: 0 0 0.75rem;
+}
+.Agriculture-anchor a {
+    text-decoration: none;
+    color:  #1e8558;;
+}
+.Agriculture-CardLogo {
+    width: 277px;
+    height: auto;
+}
+.Agriculture-cardText{
+    display: flex;
+    margin: 0 10px;
+}
+
+.AgricultureHeart-Icon{
+    font-size: 1.5rem;
+    color: #1e8558;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+.Agriculture-OrganizationInfo{
+    display: flex;
+}
+.interstingProgram-Heading h1{
+  text-align: center;
+  margin-top: 5px;
+}
+.DispayCoversion{
+    margin: 3em auto 1em;
+    text-align: center;
+}
+.ChampionButton{
+    align-items: center;
+    background-color: #f95c39;
+     border: 2px solid #f95c39;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1rem;
+    font-weight: 700;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5rem;
+    min-height: 3rem;
+    outline: none;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+.Agriculture-Section3{
+    max-width: 1140px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.AgricultureSub-SectionHeading h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin: 1rem 0 0.5rem;
+}
+.AgricultureSub-SectionHeading2{
+    display: block;
+}
+.AgricultureSpecilization-FiledContainer{
+    max-width: 1140px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 15px;
+}
+.AgricultureSpecilization-HeadingText h3 {
+    margin: 10px 0;
+    padding-top: 20px;
+}
+.AgricultureSpecilization-Container1{
+    margin: 10px 0;
+}
+.AgricultureSpecilization-Container1 ul li {
+    list-style-type: none;
+}
+.AgricultureSpecilization-Container1 ul li a {
+    text-decoration: none;
+    color: #1e8558;
+}
+.AgricultureSpecilization-Container2{
+    margin: 10px 0;
+}
+.AgricultureSpecilization-Container2 ul li {
+    list-style-type: none;
+}
+.AgricultureSpecilization-Container2 ul li a {
+    text-decoration: none;
+    color: #1e8558;
+}
+.AgricultureSpecilization-Container3{
+    margin: 10px 0;
+}
+.AgricultureSpecilization-Container3 ul li {
+    list-style-type: none;
+}
+.AgricultureSpecilization-Container3 ul li a {
+    text-decoration: none;
+    color: #1e8558;
+}
+.AgricultureSpecilization-SubFieldContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 15px 5px;
+    padding: 10px 5px;
+}

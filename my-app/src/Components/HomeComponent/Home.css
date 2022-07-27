@@ -1,0 +1,133 @@
+.Section1 {
+    position: relative;
+}
+.Section1 img {
+    width: 100%;
+}
+.content-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.Section3-heading{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.headingTextWraaper{
+    
+    font-size: 3.375rem;
+    font-weight: 700;
+    line-height: 4rem;
+   text-align: center;
+    text-shadow: 1px 1px #3f5c6e;
+    color: #fff;
+    display: block; 
+}
+.secondheading {
+    text-align: center;
+    color: #fff;
+    display: block; 
+}
+.formWrapper {
+    background: #05293c66;
+    height: 50px;
+    
+    
+    align-items: center;
+    padding-top: 5px;
+}
+.formWrapper form {
+    text-align: center;
+}
+.formWrapper input {
+    padding: 10px 70px;
+}
+.formWrapper select {
+    padding: 10px;
+    width: 200px;
+}
+.searchButton {
+    background: #f95c39;
+    border: 1px solid #f95c39;
+    border-radius: 0 4px 5px 0;
+    color: #fff;
+    width: 75px;
+    height: 38px; 
+   padding: 10px 20px;
+}
+
+.discipline {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.disciplinetree a {
+
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+   text-align: center;
+   text-decoration: none;
+   color: #05293c;
+}
+img {
+    width: 70px;
+}
+.disciplinetree {
+    background-color: #edf3f6;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+    padding: 1em;
+    text-align: center; 
+    padding: 12px;
+}
+.DiscoverCities {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.CityImage{
+    width: 100%;
+}
+.textHeading {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.City {
+    position: relative;
+}
+.city-container{
+    background-color: rgba(5, 41, 60, 0.4);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #edf3f6;
+    padding: 20px;
+}
+
+.Section5-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 15px;
+    text-align: center;
+}
+.Section5-textHeading{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+}
+.Section5-subHeading{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

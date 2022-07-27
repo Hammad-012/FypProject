@@ -1,0 +1,22 @@
+[
+    {
+    "universityName": "Comsats University",
+    "nts": "true",
+    "disciplines": ["Computer Science"],
+    "branches": ["Islamabad" , "Lahore" , "Sahiwal" , "Abottabad"],
+    "requiredMarks": 50,
+    "scholorships": [
+        {
+            "Talen Hunt": 82
+        }
+        ,
+        {
+            "merit scholorship": 75
+        },
+        {
+            "ehsas": 75
+        }
+    ]
+    
+    }
+]

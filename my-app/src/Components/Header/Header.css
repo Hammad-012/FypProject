@@ -1,0 +1,12 @@
+.left-container {
+    display: flex;
+   
+    
+}
+.right-container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    width: 100%;
+    padding-right: 75px;
+}

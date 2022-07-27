@@ -1,0 +1,63 @@
+[
+    {
+        "id": 0,
+        "Dicipline": "Computer Science & IT"
+    },
+    {
+        "id": 1,
+        "Dicipline": "Applied Science & Profession"
+    },
+    {
+      "id" : 2,
+      "Dicipline" : "Agriculture & Foresty"
+    },
+    {
+        "id" : 3,
+        "Dicipline" : "Art Design & Architecture"
+    },
+    {
+        "id" : 4,
+        "Dicipline" :  "Buissness & Management"
+    },
+    {
+        "id" : 5,
+        "Dicipline" : "Education & Training"
+    },
+    {
+        "id" : 6,
+        "Dicipline" : "Engineering & Technology"
+    },
+    {
+        "id" : 7,
+        "Dicipline" : "Enviroment Studies & Earth Studies"
+    },
+    {
+        "id" : 8,
+        "Dicipline" : "Hospitality & Lisure"
+    },
+    {
+        "id" : 9,
+        "Dicipline" : "Journalism & Media"
+    },
+    {
+        "id" : 10,
+        "Dicipline" : "Law"
+    },
+    {
+        "id" : 11,
+        "Dicipline" : "Medicine & Health"
+    },
+    {
+        "id" : 12,
+        "Dicipline" : "Natural Science & Mathametics"
+    },
+    {
+        "id" : 13,
+        "Dicipline" : "Humanities"
+    },
+    {
+        "id" : 14,
+        "Dicipline" : "Social Science"
+    }
+
+]

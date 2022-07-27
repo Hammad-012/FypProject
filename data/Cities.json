@@ -1,0 +1,50 @@
+[
+    {
+        "id" : 0,
+        "Cities" : "Islamabad"
+    },
+    {
+        "id" : 1,
+        "Cities" : "Karachi"
+    },
+    {
+        "id" : 2,
+        "Cities" : "Faislabad"
+    },
+    {
+        "id" : 3,
+        "Cities" : "Lahore"
+    },
+    {
+        "id" : 4,
+        "Cities" : "Rawalpindi"
+    },
+    {
+        "id" : 5,
+        "Cities" : "Multan"
+    },
+    {
+        "id" : 6,
+        "Cities" : "Sahiwal"
+    },
+    {
+        "id" : 7,
+        "Cities" : "RahimYarKhan"
+    },
+    {
+        "id" : 8,
+        "Cities" : "Abottabad"
+    },
+    {
+        "id" : 9,
+        "Cities" : "BhawalPur"
+    },
+    {
+        "id" : 10,
+        "Cities" : "Waah Cant"
+    },
+    {
+        "id" : 11,
+        "Cities" : "Sargodha"
+    }
+]

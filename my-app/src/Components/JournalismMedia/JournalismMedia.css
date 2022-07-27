@@ -1,0 +1,142 @@
+.JournalismMedia-Container{
+    max-width: 1140px;
+    margin: 0 auto;
+   
+}
+.JournalismMedia-SubContainer a{
+    text-decoration: none;
+    
+}
+.JournalismMedia-SubContainer a img {
+    margin-top: 5px;
+}
+.JournalismMedia-Heading h1 {
+    text-align: center;
+    line-height: 4pc;
+}
+.JournalismMedia-Section2{
+    display: flex;
+    column-gap: 20px;
+}
+.JournalismMedia-SubSection1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 5px;
+}
+.JournalismMedia-TextHeadingContainer{
+    max-width: 1140px;
+    margin: 0 auto;
+     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.JournalismMediaTextHeading-Container p {
+    margin: 0 0 0.75rem;
+}
+.JournalismMedia-anchor a {
+    text-decoration: none;
+    color:  #1e8558;;
+}
+.JournalismMedia-CardLogo {
+    width: 277px;
+    height: auto;
+}
+.JournalismMedia-cardText{
+    display: flex;
+    margin: 0 10px;
+}
+
+.JournalismMediaHeart-Icon{
+    font-size: 1.5rem;
+    color: #1e8558;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+.JournalismMedia-OrganizationInfo{
+    display: flex;
+}
+.interstingProgram-Heading h1{
+  text-align: center;
+  margin-top: 5px;
+}
+.DispayCoversion{
+    margin: 3em auto 1em;
+    text-align: center;
+}
+.ChampionButton{
+    align-items: center;
+    background-color: #f95c39;
+     border: 2px solid #f95c39;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1rem;
+    font-weight: 700;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5rem;
+    min-height: 3rem;
+    outline: none;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+.JournalismMedia-Section3{
+    max-width: 1140px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.JournalismMediaSub-SectionHeading h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin: 1rem 0 0.5rem;
+}
+.JournalismMediaSub-SectionHeading2{
+    display: block;
+}
+.JournalismMediaSpecilization-FiledContainer{
+    max-width: 1140px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 15px;
+}
+.JournalismMediaSpecilization-HeadingText h3 {
+    margin: 10px 0;
+    padding-top: 20px;
+}
+.JournalismMediaSpecilization-Container1{
+    margin: 10px 0;
+}
+.JournalismMediaSpecilization-Container1 ul li {
+    list-style-type: none;
+}
+.JournalismMediaSpecilization-Container1 ul li a {
+    text-decoration: none;
+    color: #1e8558;
+}
+.JournalismMediaSpecilization-Container2{
+    margin: 10px 0;
+}
+.JournalismMediaSpecilization-Container2 ul li {
+    list-style-type: none;
+}
+.JournalismMediaSpecilization-Container2 ul li a {
+    text-decoration: none;
+    color: #1e8558;
+}
+.JournalismMediaSpecilization-Container3{
+    margin: 10px 0;
+}
+.JournalismMediaSpecilization-Container3 ul li {
+    list-style-type: none;
+}
+.JournalismMediaSpecilization-Container3 ul li a {
+    text-decoration: none;
+    color: #1e8558;
+}
+.JournalismMediaSpecilization-SubFieldContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 15px 5px;
+    padding: 10px 5px;
+}

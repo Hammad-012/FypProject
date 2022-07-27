@@ -1,0 +1,10 @@
+.left-container img {
+    width: 280px;
+    padding-left: 80px;
+    
+}
+.left-container {
+    display: flex;
+    align-items: center;
+    
+}

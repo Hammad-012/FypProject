@@ -1,0 +1,142 @@
+.ArtDesign-Container{
+    max-width: 1140px;
+    margin: 0 auto;
+   
+}
+.ArtDesign-SubContainer a{
+    text-decoration: none;
+    
+}
+.ArtDesign-SubContainer a img {
+    margin-top: 5px;
+}
+.ArtDesign-Heading h1 {
+    text-align: center;
+    line-height: 4pc;
+}
+.ArtDesign-Section2{
+    display: flex;
+    column-gap: 20px;
+}
+.ArtDesign-SubSection1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 5px;
+}
+.ArtDesign-TextHeadingContainer{
+    max-width: 1140px;
+    margin: 0 auto;
+     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.ArtDesign-Container p {
+    margin: 0 0 0.75rem;
+}
+.ArtDesign-anchor a {
+    text-decoration: none;
+    color:  #1e8558;;
+}
+.ArtDesign-CardLogo {
+    width: 277px;
+    height: auto;
+}
+.ArtDesign-cardText{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.ArtDesignHeart-Icon{
+    font-size: 1.5rem;
+    color: #1e8558;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+.ArtDesign-OrganizationInfo{
+    display: flex;
+}
+.interstingProgram-Heading h1{
+  text-align: center;
+  margin-top: 5px;
+}
+.DispayCoversion{
+    margin: 3em auto 1em;
+    text-align: center;
+}
+.ChampionButton{
+    align-items: center;
+    background-color: #f95c39;
+     border: 2px solid #f95c39;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1rem;
+    font-weight: 700;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5rem;
+    min-height: 3rem;
+    outline: none;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+.ArtDesign-Section3{
+    max-width: 1140px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.ArtDesignSub-SectionHeading h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin: 1rem 0 0.5rem;
+}
+.ArtDesignSub-SectionHeading2{
+    display: block;
+}
+.ArtDesignSpecilization-FiledContainer{
+    max-width: 1140px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 15px;
+}
+.ArtDesignSpecilization-HeadingText h3 {
+    margin: 10px 0;
+    padding-top: 20px;
+}
+.ArtDesignSpecilization-Container1{
+    margin: 10px 0;
+}
+.ArtDesignSpecilization-Container1 ul li {
+    list-style-type: none;
+}
+.ArtDesignSpecilization-Container1 ul li a {
+    text-decoration: none;
+    color: #1e8558;
+}
+.ArtDesignSpecilization-Container2{
+    margin: 10px 0;
+}
+.ArtDesignSpecilization-Container2 ul li {
+    list-style-type: none;
+}
+.ArtDesignSpecilization-Container2 ul li a {
+    text-decoration: none;
+    color: #1e8558;
+}
+.ArtDesignSpecilization-Container3{
+    margin: 10px 0;
+}
+.ArtDesignSpecilization-Container3 ul li {
+    list-style-type: none;
+}
+.ArtDesignSpecilization-Container3 ul li a {
+    text-decoration: none;
+    color: #1e8558;
+}
+.ArtDesignSpecilization-SubFieldContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 15px 5px;
+    padding: 10px 5px;
+}

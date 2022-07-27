@@ -1,0 +1,24 @@
+.center-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.center-container select {
+    padding: 10px;
+    width: 200px;
+}
+
+.SearchButton{
+   
+    background: #f95c39;
+    border: 1px solid #f95c39;
+    border-radius: 0 3px 3px 0;
+    color: #fff;
+    width: 50px;
+    height: 38px; 
+    font-size: 20px; 
+}
+
