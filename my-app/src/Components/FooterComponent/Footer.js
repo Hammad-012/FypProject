@@ -1,4 +1,5 @@
 import './Footer.css';
+import {Link} from 'react-router-dom'
 import FacebookImg from './facebook.png';
 import LinkdinImg from './linkedin.png';
 import youtubeImg  from './youtube.png';
@@ -11,30 +12,30 @@ const Footer = () => {
         <footer>
         <div className='Footer-container'>
             <div className='Sub-footercontainer1'>
-                <a href='#'>
+                <Link to='/'>
                     <img  src={FooterImg} alt='LogoPortal' />
-                </a>
+                </Link>
             </div>
             <div className='Sub-footercontainer2'>
                 <h4 className='header2'>About Study Portal</h4>
                 <ul>
                     <li>
-                        <a href="#">
+                        <Link to='/About-us'>
                             About StudyPortal
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href='#'>
                             Our Markeeting Service
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <Link to='/career'>
                             Career
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href='#'>
                             Contact Us
                         </a>
                     </li>
@@ -44,22 +45,22 @@ const Footer = () => {
                 <h4 className='header3'>Follow us</h4>
                 <ul>
                     <li>
-                        <a href=''>
+                        <a href='#'>
                             <img src={FacebookImg} alt='Facebook' />
                         </a>
                     </li>
                     <li>
-                        <a href=''>
+                        <a href='#'>
                             <img src={LinkdinImg} alt='Linkedin' />
                         </a>
                     </li>
                     <li>
-                        <a href=''>
+                        <a href='#'>
                             <img src={InstaImg} alt='Instagram' />
                         </a>
                     </li>
                     <li>
-                        <a href=''>
+                        <a href='#'>
                             <img src={twitterImg} alt='twitter' />
                         </a>
                     </li>
@@ -72,7 +73,7 @@ const Footer = () => {
                     <hr></hr>
                     <p className='copyright'>
                     Copyright © 2022-23
-                    <a href="#">StudyPortal.PK</a>
+                    <a href='#'>StudyPortal.PK</a>
                     All Rights Reserved
                     </p>
                 </div>

@@ -1,4 +1,5 @@
 import './LinkList.css';
+import {Link} from 'react-router-dom'
 import Home from '../HomeComponent/Home'
 const LinkList = () => {
     return (
@@ -6,10 +7,17 @@ const LinkList = () => {
        <ul className='right-container2'>
         <li>
             <a href='#' className='wishlist-container'>
-                <span >
-                <ion-icon name="heart-outline"></ion-icon><br />
-                <p className='wishlistText'>Wishlist</p>
-                </span>
+               Scholarships
+            </a>
+            </li>
+            <li>
+            <Link to='/About-us' className='wishlist-container'>
+              About us
+            </Link>
+            </li>
+            <li>
+            <a href='#' className='wishlist-container'>
+              Contact us
             </a>
             </li>
             <li>

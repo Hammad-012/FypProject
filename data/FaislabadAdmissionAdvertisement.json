@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 0,
+        "UniversityName" :  "University Agriculture Faislabad",
+        "StartDate" :    "19-08-2022",
+        "EndDate" :      "20-09-2022"
+    },
+   {
+       "id" :  1,
+       "UniversityName" : "Government College University Faislabad",
+        "StartDate" :     "20-8-2022",
+        "EndDate"   :     "15-09-2022"
+   },
+   {
+    "id" : 2,
+    "UniversityName" : "University of Faislabad",
+    "StartDate" :     "25-8-2022",
+    "EndDate"    :    "20-09-2022"
+   },
+   {
+    "id" : 3,
+    "UniversityName" : "National Textile University Faislabad",
+    "StartDate" :    "19-08-2022",
+    "EndDate"  :    "17-09-2022"
+   },
+   {
+    "id" : 4,
+    "UniversityName" :  "Faislabad Medical University",
+    "StartDate" :      "19-08-2022",
+    "EndDate"    :    "15-09-2022"
+   }
+]

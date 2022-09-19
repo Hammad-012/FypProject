@@ -23,12 +23,16 @@ import AppliedScienceAdmissionAdvertisement from './Components/AppliedScienceAdm
 import ArtDesignAdmissionAdvertisement from './Components/ArtDesignAdmissionAdvertisement/ArtDesignAdmissionAdvertisement';
 import Footer from './Components/FooterComponent/Footer';
 import {Routes, Route} from "react-router-dom";
+import SahiwalUniversityAdvertisement from './Components/University Advertisements/SahiwalUniversityadvertisement';
+import AboutUs from './Components/AboutUs/AboutUs';
+import Career from './Components/Career/Career';
 function App() {
   return (
     <div className="App">
       <Header />
       <Routes>
       <Route path="/" element={<Home />} />
+      <Route path='/Search/:city' element={<SahiwalUniversityAdvertisement />} />
       <Route path="/ComputerScience" element={<ComputerScience />} />
       <Route path="/AgricultureForesty" element={<AgricultureForesty />} />
       <Route path="/AppliedScience" element={<AppliedScience />} />
@@ -48,7 +52,10 @@ function App() {
       <Route path="/AgricultureForestyAdmission" element={<AgricultureForestyAdmissionAdvertisement/>} />
       <Route path="/AppliedScienceAdmissionAdvertisement" element={<AppliedScienceAdmissionAdvertisement/>} />
       <Route path="/ArtDesignAdmissionAdvertisement" element={<ArtDesignAdmissionAdvertisement/>} />
+      <Route path='/About-us' element={<AboutUs />} />
+      <Route path='/career' element={<Career />} />
       </Routes>
+      
       <Footer />
       
     </div>

@@ -1,8 +1,11 @@
 import './Search.css';
 import { useState , useEffect  } from 'react';
+import { useNavigate } from 'react-router-dom';
 const Search = () => {
+   const Navigate =  useNavigate();
     const [disciplines, setDisciplines] = useState([]);
     const [Cities , setCities] = useState([]);
+    const [city, setCity] = useState('');
     const optionCities = Cities.map((ele)=>{
         return <option id={ele.id} key={ele.id}>{ele.Cities}</option>
     })
@@ -39,16 +42,25 @@ const Search = () => {
             console.log(err.message)
         })
     }, [])
+
+
+    const submitHandler= (event) => {
+       event.preventDefault();
+       Navigate(`/Search/${city}`)
+    }
+    const cityChangeHandler = (event) => {
+        setCity(event.target.value);
+    }
     return (
         
-        <form className='center-container'>
+        <form className='center-container' onSubmit={submitHandler}>
             <select type='text' placeholder='What to Study?' >
                 <option>Select Discipline</option>
                 {
                   optionData
                 }
             </select>
-            <select type='text' placeholder='Where to Study?'>
+            <select onChange={cityChangeHandler} value={city} type='text' placeholder='Where to Study?'>
             <option>Select Cities</option>
             {
                 optionCities

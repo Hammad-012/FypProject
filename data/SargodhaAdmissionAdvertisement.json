@@ -1,0 +1,20 @@
+[
+    {
+        "id" : 0,
+         "UniversityName" : "University of Sargodha",
+         "StartDate" : "06-09-2022",
+         "EndDate" : "04-10-2022"
+    },
+    {
+        "id" : 1,
+        "UniversityName" : "Sargodha Institute of Technology",
+        "StartDate" :   "20-09-2022",
+        "EndDate"   :    "07-10-2022"
+    }, 
+    {
+        "id" : 2,
+        "UniversityName" : "Sargodha Medical College",
+        "StartDate" :  "25-09-2022",
+        "EndDate"   : "07-10-2022"
+    }
+]

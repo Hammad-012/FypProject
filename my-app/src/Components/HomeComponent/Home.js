@@ -28,9 +28,10 @@ import AbottabadImg from './Abottabad.webp';
 import BhawalPurImg from './BhawalPur.webp';
 import SargodhaImg from './Sargodha.webp';
 import Footer from '../FooterComponent/Footer'
-import {Link} from 'react-router-dom'
+import {Link, useNavigate } from 'react-router-dom'
 import {useState, useEffect} from 'react';
 const Home = () => {
+    const Navigate = useNavigate()
     const [disciplines, setDisciplines] = useState([]);
     const [Cities , setCities] = useState([]);
     const [city, setCity] = useState("");
@@ -74,23 +75,11 @@ const Home = () => {
     setCity(event.target.value)
   } 
   const submitHandler = (event) => {
-    event.preventDefault()
-    fetch('http://127.0.0.1:8000/universities')
-    .then((res)=>{
-        if(res.ok === false) {
-            throw new Error('Error')
-            
-        }
-        return res.json()
-    })
-    .then((respdata)=>{
-        console.log(respdata)
-    })
-  .catch((err)=>{
-  console.log(err.message)
-  })
+    console.log(event)
+    event.preventDefault();
+    Navigate('/ComputerScienceAdmissionAdvertisement')
+    
   }
-  console.log(city)
     return (
         
         <>

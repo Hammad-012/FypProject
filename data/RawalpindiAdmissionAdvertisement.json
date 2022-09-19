@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 0,
+        "UniversityName" : "Barani Institute of Information Technology (Biit)",
+        "StartDate" :   "15-09-2022",
+        "EndDate"  :    "10-10-2022"
+    },
+    {
+        "id" : 1,
+        "UniversityName" :  "Pir Mehr Ali Shah Arid Agriculture University",
+        "StartDate"  :       "09-09-2022",
+        "EndDate"   :        "10-10-2022"
+    },
+    {
+        "id" : 2,
+        "UniversityName" : "Virtual University Campus, Rawalpindi",
+        "StartDate" :    "05-09-2022",
+        "EndDate"  :    "10-10-2022"
+    },
+    {
+        "id"  : 3,
+        "UniversityName" : "National College of Arts",
+        "StartDate" : "6-10-2022",
+        "EndDate"   :   "10-11-2022"
+    },
+    {
+        "id" : 4,
+        "UniversityName" : "Rawalpindi Medical University",
+        "StartDate" : "15-09-2022",
+        "EndDate" :    "25-10-2022"
+    }
+]

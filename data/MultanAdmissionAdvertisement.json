@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 0,
+        "UniversityName" : "Bahauddin Zakariya University - BZU",
+        "StartDate" :      "12-08-2022",
+        "EndDate"  :       "14-09-2022"
+    },
+    {
+        "id" : 1,
+        "UniversityName" : "Muhammad Nawaz Sharif University Agriculture Multan",
+        "StartDate" :   "25-08-2022",
+        "EndDate" :   "14-09-2022"
+    },
+    {
+        "id" : 2,
+        "UniversityName" : "Institute of Southern Punjab",
+        "StartDate" :      "25-08-2022",
+        "EndDate"   :     "21-09-2022"
+    },
+    {
+        "id" : 3,
+        "UniversityName" : "Pakistan Institute of Engineering and Technology",
+        "StartDate" : "17-08-2022",
+        "EndDate"  :   "02-09-2022"
+    },
+    {
+        "id" : 4,
+        "UniversityName" : "Nishtar Medical University",
+        "StartDate" :    "15-09-2022",
+        "EndDate"   :     "16-10-2022"
+    }
+]

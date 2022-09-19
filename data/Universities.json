@@ -2,7 +2,7 @@
     {
     "universityName": "Comsats University",
     "nts": "true",
-    "disciplines": ["Computer Science"],
+    "disciplines": ["Computer Science & IT" , "Applied Science & Profession" , "Agriculture & Foresty" , "Art Design & Architecture" , "Buissness & Management" , "Education & Training" , "Engineering & Technology" , "Enviroment Studies & Earth Studies", "Hospitality & Lisure" , "Journalism & Media" , "Law" , "Medicine & Health" , "Natural Science & Mathametics" , "Humanities" , "Social Science"],
     "branches": ["Islamabad" , "Lahore" , "Sahiwal" , "Abottabad"],
     "requiredMarks": 50,
     "scholorships": [

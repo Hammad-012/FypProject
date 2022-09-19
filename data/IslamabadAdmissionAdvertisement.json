@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 0,
+        "UniversityName" : "Comsats University Islamabad",
+        "StartDate" :       "12-08-2022",
+        "EndDate" :           "18-09-2022"
+    },
+    {
+        "id" : 1,
+        "UniversityName" : "Fast University Islamabad",
+        "StartDate"  :      "14-07-2022",
+        "EndDate" :         "15-08-2022"
+    },
+    {
+        "id" : 2,
+        "UniversityName" :  "Quaid-e-Azam University Islamabad",
+        "StartDate" :      "12-08-2022",
+        "EndDate" :        "16-09-2022"
+    },
+    {
+        "id" : 3,
+        "UniversityName" : "Nust University Islamabad",
+        "StartDate" :       "12-07-2022",
+        "EndDate"  :         "14-08-2022"
+    },
+    {
+        "id" : 4,
+        "UniversityName" : "Shaheed Zulfiqaar Ali Bhutto Medical University",
+        "StartDate" :       "12-08-2022",
+        "EndDate"  :        "14-09-2022"
+    }
+]

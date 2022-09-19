@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 0,
+        "UniversityName" : "Comsats University Islamabad Lahore Campus",
+        "StartDate" :       "14-08-2022",
+        "EndDate"  :       "15-09-2022"
+    },
+    {
+        "id" :   1,
+        "UniversityName" :   "Punjab University" ,
+         "StartDate" :       "21-08-2022",
+         "EndDate"   :       "15-09-2022"
+    },
+    {
+        "id" :   2,
+        "UniversityName" :  "Government College University Lahore",
+        "StartDate" :         "27-08-2022",
+        "EndDate"  :         "20-09-2022"
+    },
+    {
+        "id" :   3,
+        "UniversityName" :  "Lahore College for Women University",
+        "StartDate"  :         "29-08-2022",
+        "EndDate" :           "20-09-2022"
+    },
+    {
+        "id"   :   4,
+        "UniversityName" :  "King Edward Medical University Lahore",
+        "StartDate" :     "25-08-2022",
+        "EndDate" :       "15-09-2022"
+    }
+]

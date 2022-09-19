@@ -1,0 +1,130 @@
+.Section-Container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.Section-Container1 img {
+    width: 100%;
+    background-position: center;
+}
+.Section-Container1 {
+    position: relative;
+}
+.Image-text {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    color: white;
+}
+.Image-text h1{
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-left: 50px;
+}
+.text-container {
+    
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: white;
+}
+.text-row{
+    margin-top: 20px;
+    text-align: center;
+    padding: 35px 0px;
+}
+.Meet-Founder{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    padding-top: 25px;
+    padding-left: 100px;
+    background-color: white;
+    
+}
+.Meet-Founder1 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.Meet-Founder1 a {
+    text-decoration: none;
+    color: black !important;
+}
+.Meet-Founder2 img {
+    width: 150px;
+   height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.Meet-Founder2 a {
+    text-decoration: none;
+    color: black !important;
+}
+.Meet-Founder3 img {
+   width: 150px;
+   height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.Meet-Founder3 a {
+    text-decoration: none;
+    color: black !important;
+} 
+.Button-Link{
+    display: inline-block;
+    padding: 12px 36px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    opacity: 1;
+    color: #f95c39!important;
+    border: 1px solid #f95c39!important;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    padding-top: 15px;
+}
+.Section2-Container{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.Section2-Container1 img {
+    width: 100%
+}
+.Section2-textContainer{
+    position: relative
+}
+.Image-texts{
+    position: absolute;
+     bottom: 10px;
+    color: white;
+}
+.Image-texts h2 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-left: 50px;
+}
+.Image-texts p {
+   padding-left: 15px;
+   text-align: center;
+}
+.Button-link{
+    display: inline-block;
+    padding: 12px 36px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    opacity: 1;
+    color: #f95c39!important;
+    border: 1px solid #f95c39!important;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}

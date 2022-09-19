@@ -1,0 +1,15 @@
+[
+    {
+        "id" : 0,
+        "UniversityName" : "Khawaja fareed University of Engineering and technology",
+        "StartDate" :    "02-08-2022",
+        "EndDate" :  "02-09-2022"
+    },
+
+    {
+        "id" : 1 ,
+        "UniversityName" : "Shiekh Medical College Rahim yar Khan",
+        "StartDate" :     "04-08-2022",
+        "EndDate"   :    "10-09-2022"
+    }
+]

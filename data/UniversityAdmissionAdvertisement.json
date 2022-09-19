@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 0,
+        "UniversityName" :  "Comsats University Islamabad Sahiwal Campus",
+        "StartDate" : "12-06-2022",
+        "EndDate" : "20-08-2022"
+    },
+    {
+        "id" : 1,
+        "UniversityName" :  "University of Sahiwal",
+        "StartDate" : "12-06-2022",
+        "EndDate" : "20-08-2022"
+    },
+    {
+        "id" : 2,
+        "UniversityName" :  "Arid University Sahiwal",
+        "StartDate" : "12-06-2022",
+        "EndDate" : "20-08-2022"
+    },
+    {
+        "id" : 4,
+        "UniversityName" :  "Arid University Sahiwal",
+        "StartDate" : "12-06-2022",
+        "EndDate" : "20-08-2022"
+    }
+]
