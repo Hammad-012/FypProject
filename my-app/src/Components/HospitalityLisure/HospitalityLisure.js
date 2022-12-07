@@ -1,4 +1,5 @@
 import './HospitalityLisure.css';
+import {Link} from 'react-router-dom';
 import HospitalityImg from './pin.png';
 import CardImage from './CardImage.avif';
 import UELogo from './UELogo.jpg';
@@ -27,9 +28,9 @@ const HospitalityLisure = () => {
                  </div>
               </div>
               <div className='HospitalityLisure-anchor'>
-                <a href='#'>
+                <Link to='/HospitalityLisureAdvertisement'>
                     <p>View all Bachelor's Degrees in Hospitality, Leisure & Sports</p>
-                </a>
+                </Link>
                 <div className='interstingProgram-Heading'>
                     <h1>Interesting programmes for you</h1>
                 </div>
@@ -138,7 +139,7 @@ const HospitalityLisure = () => {
                 
               </div>
               <div className='DispayCoversion'>
-                       <a href='#' className='ChampionButton'>View all Bachelor's Degrees in Hospitality, Leisure & Sports</a>
+                       <Link to='/HospitalityLisureAdvertisement' className='ChampionButton'>View all Bachelor's Degrees in Hospitality, Leisure & Sports</Link>
                  </div>
                  <div className='HospitalityLisure-Section3'>
                     <div className='HospitalityLisureSub-SectionHeading'>

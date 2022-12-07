@@ -3,24 +3,34 @@
         "id" : 0,
         "UniversityName" : "The Islamia University BhawalPur",
         "StartDate" : "20-09-2022",
-        "EndDate" :  "23-10-2022"
+        "EndDate" :  "23-10-2022",
+        "eligibilityCriteria" : 50,
+        "nts" : true,
+        "UrlLink" : "https://eportal.iub.edu.pk/login"
     },
     {
         "id" : 1,
         "UniversityName" : "Government Sadiq Women University BhawalPur",
         "StartDate" :    "24-08-2022",
-        "EndDate" :    "23-10-2022"
+        "EndDate" :    "23-10-2022",
+        "eligibilityCriteria" : 50,
+        "UrlLink" : "https://admissions.gscwu.edu.pk/Identity/Account/Login?ReturnUrl=%2FHome%2FAdmissionForm"
     },
     {
         "id" : 2,
         "UniversityName" : "Cholistan University of Animal and Science",
         "StartDate" :    "12-08-2022",
-        "EndDate"   :     "20-09-2022"
+        "EndDate"   :     "20-09-2022",
+        "eligibilityCriteria" : 50,
+        "UrlLink" : "https://admissions.cuvas.edu.pk/Identity/Account/Login?ReturnUrl=%2FHome%2FAdmissionForm"
     },
     {
         "id" : 3,
         "UniversityName"  : "Quaid-e-Azam Medical College Bhawalpur",
         "StartDate" :   "08-08-2022",
-        "EndDate" :    "20-09-2022"
+        "EndDate" :    "20-09-2022",
+        "MDCAT" : true,
+        "eligibilityCriteria" : 60,
+        "UrlLink" : "http://www.qamc.edu.pk/"
     }
 ]

@@ -2,6 +2,7 @@ import './Humanities.css';
 import HumanitiesImg from './human.png';
 import CardImage from './CardImage.avif';
 import UELogo from './UELogo.jpg';
+import {Link} from 'react-router-dom'
 const Humanities = () => {
     return (
         <div>
@@ -28,9 +29,9 @@ const Humanities = () => {
                  </div>
               </div>
               <div className='Humanities-anchor'>
-                <a href='#'>
+                <Link to='/HumantitiesAdvertisement'>
                     <p>View all Bachelor's Degrees in Humanities</p>
-                </a>
+                </Link>
                 <div className='interstingProgram-Heading'>
                     <h1>Interesting programmes for you</h1>
                 </div>
@@ -139,7 +140,7 @@ const Humanities = () => {
                 
               </div>
               <div className='DispayCoversion'>
-                       <a href='#' className='ChampionButton'>View all Bachelor's Degrees in Humanities</a>
+                <Link to='/HumantitiesAdvertisement' className='ChampionButton'>View all Bachelor's Degrees in Humanities</Link>
                  </div>
                  <div className='Humanities-Section3'>
                     <div className='HumanitiesSub-SectionHeading'>

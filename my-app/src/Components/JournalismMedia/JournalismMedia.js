@@ -1,4 +1,5 @@
 import './JournalismMedia.css';
+import {Link} from 'react-router-dom'
 import MediaImg from './media.png';
 import CardImage from './CardImage.avif';
 import UELogo from './UELogo.jpg';
@@ -28,9 +29,9 @@ const JournalismMedia = () => {
                  </div>
               </div>
               <div className='JournalismMedia-anchor'>
-                <a href='#'>
+                <Link to='JournalismMediaAdvertisement'>
                     <p>View all Bachelor's Degrees in Journalism & Media</p>
-                </a>
+                </Link>
                 <div className='interstingProgram-Heading'>
                     <h1>Interesting programmes for you</h1>
                 </div>
@@ -139,7 +140,7 @@ const JournalismMedia = () => {
                 
               </div>
               <div className='DispayCoversion'>
-                       <a href='#' className='ChampionButton'>View all Bachelor's Degrees in Journalism & Media</a>
+                       <Link to='/JournalismMediaAdvertisement' className='ChampionButton'>View all Bachelor's Degrees in Journalism & Media</Link>
                  </div>
                  <div className='JournalismMedia-Section3'>
                     <div className='JournalismMediaSub-SectionHeading'>

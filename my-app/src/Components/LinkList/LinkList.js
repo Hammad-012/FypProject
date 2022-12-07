@@ -6,9 +6,9 @@ const LinkList = () => {
         <>
        <ul className='right-container2'>
         <li>
-            <a href='#' className='wishlist-container'>
+            <Link to='/Scholarships' className='wishlist-container'>
                Scholarships
-            </a>
+            </Link>
             </li>
             <li>
             <Link to='/About-us' className='wishlist-container'>
@@ -23,8 +23,9 @@ const LinkList = () => {
             <li>
             <a href='#'  className='signin-container'>
                 <span>
+                <Link to='/login-form'>
                 <ion-icon name="person-outline"></ion-icon>
-                <p className='signinText'>Sign in</p>
+               <p className='signinText' >Sign in</p> </Link>
                 </span>
             </a>
             </li>

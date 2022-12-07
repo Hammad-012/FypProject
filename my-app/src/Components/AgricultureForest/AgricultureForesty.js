@@ -1,8 +1,14 @@
 import './AgricultureForesty.css';
 import {Link} from 'react-router-dom'
 import treeImg from './tree.png';
-import CardImg from './CardImage.avif';
-import UELogo from './UELogo.jpg'
+import CardImage from './CardImage.jpeg';
+import CardSoil from './CardSoil.png'
+import PuLogo from './PuLogo.jpeg'
+import BioCard from './BioCard.webp'
+import Argonomy from './Argonomy.png'
+import UAFLogo from './UAFLogo.png'
+import AridLogo from './AridLogo.png';
+import UOSLogo from './UOSLogo.jpg'
 const AgricultureForesty = () => {
     return (
         <div>
@@ -39,10 +45,10 @@ const AgricultureForesty = () => {
               <div className='Agriculture-Section2'>
                  <div className='Agriculture-SubSection1'>
                     <a href=''>
-                        <img src={CardImg} alt='LogoImage' className='Agriculture-CardLogo' />
+                        <img src={CardImage} alt='LogoImage' className='Agriculture-CardLogo' />
                     </a>
                     <div className='Agriculture-cardText'>
-                    <h3>Game Design</h3>
+                    <h3>BS Agricultural Science</h3>
                     <div className='Heat-Icon'>
                        <span className='AgricultureHeart-Icon'>
                        <ion-icon name="heart-outline"></ion-icon>
@@ -51,23 +57,21 @@ const AgricultureForesty = () => {
                     </div>
                     <div className='Agriculture-OrganizationInfo'>
                         <div className='UniLogo'>
-                            <img src={UELogo} alt='' />
+                            <img src={UAFLogo} alt='' />
                         </div>
                         <div className='UniName'>
-                            <p>University of Europe for<br /> Applied Science</p>
-                        <div className='Location'>
-                          <p> Berlin , Germany</p> 
-                            </div>
+                            <p>Agricultural University Faisalabad</p>
+                       
                         </div>
                         <p></p>
                     </div>
                  </div>
                  <div className='Agriculture-SubSection1'>
                     <a href=''>
-                        <img src={CardImg} alt='LogoImage' className='Agriculture-CardLogo' />
+                        <img src={CardSoil} alt='LogoImage' className='Agriculture-CardLogo' />
                     </a>
                     <div className='Agriculture-cardText'>
-                    <h3>Game Design</h3>
+                    <h3>Soil Science</h3>
                     <div className='Heat-Icon'>
                        <span className='AgricultureHeart-Icon'>
                        <ion-icon name="heart-outline"></ion-icon>
@@ -76,23 +80,20 @@ const AgricultureForesty = () => {
                     </div>
                     <div className='Agriculture-OrganizationInfo'>
                         <div className='UniLogo'>
-                            <img src={UELogo} alt='' />
+                            <img src={AridLogo} alt='' />
                         </div>
                         <div className='UniName'>
-                            <p>University of Europe for<br /> Applied Science</p>
-                        <div className='Location'>
-                          <p> Berlin , Germany</p> 
-                            </div>
+                            <p>Arid Agriculture Universities(PMASU)</p>
                         </div>
                         <p></p>
                     </div>
                  </div>
                  <div className='Agriculture-SubSection1'>
                     <a href=''>
-                        <img src={CardImg} alt='LogoImage' className='Agriculture-CardLogo' />
+                        <img src={BioCard} alt='LogoImage' className='Agriculture-CardLogo' />
                     </a>
                     <div className='Agriculture-cardText'>
-                    <h3>Game Design</h3>
+                    <h3>Bio-diversity</h3>
                     <div className='Heat-Icon'>
                        <span className='AgricultureHeart-Icon'>
                        <ion-icon name="heart-outline"></ion-icon>
@@ -101,23 +102,20 @@ const AgricultureForesty = () => {
                     </div>
                     <div className='Agriculture-OrganizationInfo'>
                         <div className='UniLogo'>
-                            <img src={UELogo} alt='' />
+                            <img src={UOSLogo} alt='' />
                         </div>
                         <div className='UniName'>
-                            <p>University of Europe for<br /> Applied Science</p>
-                        <div className='Location'>
-                          <p> Berlin , Germany</p> 
-                            </div>
+                            <p>University of Swat</p>
                         </div>
                         <p></p>
                     </div>
                  </div>
                  <div className='Agriculture-SubSection1'>
                     <a href=''>
-                        <img src={CardImg} alt='LogoImage' className='Agriculture-CardLogo' />
+                        <img src={Argonomy} alt='LogoImage' className='Agriculture-CardLogo' />
                     </a>
                     <div className='Agriculture-cardText'>
-                    <h3>Game Design</h3>
+                    <h3>Agronomy</h3>
                     <div className='Heat-Icon'>
                        <span className='AgricultureHeart-Icon'>
                        <ion-icon name="heart-outline"></ion-icon>
@@ -126,13 +124,10 @@ const AgricultureForesty = () => {
                     </div>
                     <div className='Agriculture-OrganizationInfo'>
                         <div className='UniLogo'>
-                            <img src={UELogo} alt='' />
+                            <img src={UAFLogo} alt='' />
                         </div>
                         <div className='UniName'>
-                            <p>University of Europe for<br /> Applied Science</p>
-                        <div className='Location'>
-                          <p> Berlin , Germany</p> 
-                            </div>
+                            <p>Agriculture University Faisalabad</p>
                         </div>
                         <p></p>
                     </div>

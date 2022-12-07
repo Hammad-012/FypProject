@@ -2,7 +2,15 @@ import'./ArtDesign.css';
 import ArtDesignImg from './palette.png';
 import CardImg from './CardImage.avif';
 import UELogo from './UELogo.jpg';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import gcuf from './gcuf-9.webp'
+import FineArtsCard from './FineArtsCard.jpeg'
+import UMTLogo from './UMTLogo.png'
+import GraphicDesignCard from './GraphicDesignCard.png'
+import PifdLogo from './Pifd.png'
+import FashionDesignCard from './FashionDesignCard.png'
+import ArtitectureCard from './ArtitectureCard.png'
+import UETLogo from './UETLogo.png'
 const ArtDesign =() => {
     return (
         <div>
@@ -38,10 +46,10 @@ const ArtDesign =() => {
               <div className='ArtDesign-Section2'>
                  <div className='ArtDesign-SubSection1'>
                     <a href=''>
-                        <img src={CardImg} alt='LogoImage' className='ArtDesign-CardLogo' />
+                        <img src={FineArtsCard} alt='LogoImage' className='ArtDesign-CardLogo' />
                     </a>
                     <div className='ArtDesign-cardText'>
-                    <h3>Game Design</h3>
+                    <h3>Fine Arts</h3>
                     <div className='Heat-Icon'>
                        <span className='ArtDesignHeart-Icon'>
                        <ion-icon name="heart-outline"></ion-icon>
@@ -50,20 +58,18 @@ const ArtDesign =() => {
                     </div>
                     <div className='ArtDesign-OrganizationInfo'>
                         <div className='UniLogo'>
-                            <img src={UELogo} alt='' />
+                            <img src={gcuf} alt='' />
                         </div>
                         <div className='UniName'>
-                            <p>University of Europe for<br /> Applied Science</p>
-                        <div className='Location'>
-                          <p> Berlin , Germany</p> 
-                            </div>
+                            <p>Government College University Faislabad</p>
+                        
                         </div>
                         <p></p>
                     </div>
                  </div>
                  <div className='ArtDesign-SubSection1'>
                     <a href=''>
-                        <img src={CardImg} alt='LogoImage' className='ArtDesign-CardLogo' />
+                        <img src={GraphicDesignCard} alt='LogoImage' className='ArtDesign-CardLogo' />
                     </a>
                     <div className='ArtDesign-cardText'>
                     <h3>Graphic Design (Hons)</h3>
@@ -75,20 +81,18 @@ const ArtDesign =() => {
                     </div>
                     <div className='ArtDesign-OrganizationInfo'>
                         <div className='UniLogo'>
-                            <img src={UELogo} alt='' />
+                            <img src={UMTLogo} alt='' />
                         </div>
                         <div className='UniName'>
-                            <p>University of Europe for<br /> Applied Science</p>
-                        <div className='Location'>
-                          <p> Berlin , Germany</p> 
-                            </div>
+                            <p>University of Management Technology</p>
+                        
                         </div>
                         <p></p>
                     </div>
                  </div>
                  <div className='ArtDesign-SubSection1'>
                     <a href=''>
-                        <img src={CardImg} alt='LogoImage' className='ArtDesign-CardLogo' />
+                        <img src={FashionDesignCard} alt='LogoImage' className='ArtDesign-CardLogo' />
                     </a>
                     <div className='ArtDesign-cardText'>
                     <h3>Fashion Designer</h3>
@@ -100,20 +104,18 @@ const ArtDesign =() => {
                     </div>
                     <div className='ArtDesign-OrganizationInfo'>
                         <div className='UniLogo'>
-                            <img src={UELogo} alt='' />
+                            <img src={PifdLogo} alt='' />
                         </div>
                         <div className='UniName'>
-                            <p>University of Europe for<br /> Applied Science</p>
-                        <div className='Location'>
-                          <p> Berlin , Germany</p> 
-                            </div>
+                            <p>Pakistan Institute of Fashion Design</p>
+                        
                         </div>
                         <p></p>
                     </div>
                  </div>
                  <div className='ArtDesign-SubSection1'>
                     <a href=''>
-                        <img src={CardImg} alt='LogoImage' className='ArtDesign-CardLogo' />
+                        <img src={ArtitectureCard} alt='LogoImage' className='ArtDesign-CardLogo' />
                     </a>
                     <div className='ArtDesign-cardText'>
                     <h3>Architecture and Engineering Technology</h3>
@@ -125,13 +127,11 @@ const ArtDesign =() => {
                     </div>
                     <div className='ArtDesign-OrganizationInfo'>
                         <div className='UniLogo'>
-                            <img src={UELogo} alt='' />
+                            <img src={UETLogo} alt='' />
                         </div>
                         <div className='UniName'>
-                            <p>University of Europe for<br /> Applied Science</p>
-                        <div className='Location'>
-                          <p> Berlin , Germany</p> 
-                            </div>
+                            <p>University of Engineering and Technology</p>
+                        
                         </div>
                         <p></p>
                     </div>

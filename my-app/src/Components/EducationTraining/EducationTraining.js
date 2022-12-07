@@ -1,4 +1,5 @@
 import './EducationTraining.css';
+import {Link} from 'react-router-dom'
 import EducationImg from './education.png';
 import CardImage from './CardImage.avif';
 import UELogo from './UELogo.jpg';
@@ -28,9 +29,9 @@ const EducationTraining = () => {
                  </div>
               </div>
               <div className='EducationTraining-anchor'>
-                <a href='#'>
+                <Link to='/EducationTrainingAdvertisement'>
                     <p>View all Bachelor's Degrees in Education & Training</p>
-                </a>
+                </Link>
                 <div className='interstingProgram-Heading'>
                     <h1>Interesting programmes for you</h1>
                 </div>
@@ -139,7 +140,7 @@ const EducationTraining = () => {
                 
               </div>
               <div className='DispayCoversion'>
-                       <a href='#' className='ChampionButton'>View all Bachelor's Degrees in Education & Training</a>
+                       <Link to='/EducationTrainingAdvertisement' className='ChampionButton'>View all Bachelor's Degrees in Education & Training</Link>
                  </div>
                  <div className='EducationTraining-Section3'>
                     <div className='EducationTrainingSub-SectionHeading'>

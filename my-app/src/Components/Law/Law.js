@@ -1,4 +1,5 @@
 import './Law.css';
+import {Link} from 'react-router-dom';
 import LawImg from './compliant.png';
 import CardImage from './CardImage.avif';
 import UELogo from './UELogo.jpg';
@@ -28,9 +29,9 @@ const Law = () => {
                  </div>
               </div>
               <div className='Law-anchor'>
-                <a href='#'>
+                <Link to='/LawAdvertisement'>
                     <p>View all Bachelor's Degrees in Law</p>
-                </a>
+                </Link>
                 <div className='interstingProgram-Heading'>
                     <h1>Interesting programmes for you</h1>
                 </div>
@@ -139,7 +140,7 @@ const Law = () => {
                 
               </div>
               <div className='DispayCoversion'>
-                       <a href='#' className='ChampionButton'>View all Bachelor's Degrees in Law</a>
+                       <Link to='/LawAdvertisement' className='ChampionButton'>View all Bachelor's Degrees in Law</Link>
                  </div>
                  <div className='Law-Section3'>
                     <div className='LawSub-SectionHeading'>

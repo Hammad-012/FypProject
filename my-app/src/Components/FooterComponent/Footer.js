@@ -6,6 +6,8 @@ import youtubeImg  from './youtube.png';
 import twitterImg from './twitter.png';
 import InstaImg from './instagram.png';
 import FooterImg from './LogoPortal.jpeg';
+import LogoImage from './logoImg.jpg';
+
 const Footer = () => {
     return (
         <>
@@ -13,7 +15,7 @@ const Footer = () => {
         <div className='Footer-container'>
             <div className='Sub-footercontainer1'>
                 <Link to='/'>
-                    <img  src={FooterImg} alt='LogoPortal' />
+                    <img  src={LogoImage} alt='LogoPortal' />
                 </Link>
             </div>
             <div className='Sub-footercontainer2'>

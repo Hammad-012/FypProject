@@ -1,4 +1,5 @@
 import './EnviromentStudies.css';
+import {Link} from 'react-router-dom'
 import EarthStudiesImg from './earth.png';
 import CardImage from './CardImage.avif';
 import UELogo from './UELogo.jpg';
@@ -29,9 +30,9 @@ const EnviromentStudies = () => {
                  </div>
               </div>
               <div className='EnviromentStudies-anchor'>
-                <a href='#'>
+                <Link to='/EnviromentStudiesEarthStudiesAdvertisement'>
                     <p>View all Bachelor's Degrees in Environmental Studies & Earth Sciences</p>
-                </a>
+                </Link>
                 <div className='interstingProgram-Heading'>
                     <h1>Interesting programmes for you</h1>
                 </div>
@@ -140,7 +141,7 @@ const EnviromentStudies = () => {
                 
               </div>
               <div className='DispayCoversion'>
-                       <a href='#' className='ChampionButton'>View all Bachelor's Degrees in Environmental Studies & Earth Sciences</a>
+                       <Link to='/EnviromentStudiesEarthStudiesAdvertisement' className='ChampionButton'>View all Bachelor's Degrees in Environmental Studies & Earth Sciences</Link>
                  </div>
                  <div className='EnviromentStudies-Section3'>
                     <div className='EnviromentStudiesSub-SectionHeading'>

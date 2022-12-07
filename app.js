@@ -18,6 +18,8 @@ const AbottabadAdmissionAdvertisement = JSON.parse(fs.readFileSync(`${__dirname}
 const BhawalPurAdmissionAdvertisement = JSON.parse(fs.readFileSync(`${__dirname}/data/BhawalPurAdmissionAdvertisement.json`, 'utf-8'));
 const WaahCantAdmissionAdvertisement = JSON.parse(fs.readFileSync(`${__dirname}/data/WaahCantAdmissionAdvertisement.json`, 'utf-8'));
 const SargodhaAdmissionAdvertisement = JSON.parse(fs.readFileSync(`${__dirname}/data/SargodhaAdmissionAdvertisement.json`, 'utf-8'));
+const ScholarshipAdvertisement = JSON.parse(fs.readFileSync(`${__dirname}/data/ScholarshipAdvertisement.json`, 'utf-8'));
+console.log(ScholarshipAdvertisement)
 app.use(express.json());
 app.get('/disciplines', (req, res) => {
   res.status(200).json({status: 'success', disciplines})
@@ -60,6 +62,10 @@ app.get('/WaahCantAdmissionAdvertisement', (req, res) => {
 })
 app.get('/SargodhaAdmissionAdvertisement', (req, res) => {
   res.status(200).json({status: 'success', SargodhaAdmissionAdvertisement})
+})
+app.get('/ScholarshipAdvertisement', (req, res) => {
+  console.log('hello world')
+  res.status(200).json({status: 'success', ScholarshipAdvertisement})
 })
 app.listen(8000, () => {
     console.log('app is listening on port 8000');

@@ -3,30 +3,44 @@
         "id" : 0,
         "UniversityName" : "Comsats University Islamabad Lahore Campus",
         "StartDate" :       "14-08-2022",
-        "EndDate"  :       "15-09-2022"
+        "EndDate"  :       "15-09-2022",
+        "eligibilityCriteria" : 50,
+        "nts" : true,
+        "UrlLink" : "http://admissions.comsats.edu.pk/"
     },
     {
         "id" :   1,
         "UniversityName" :   "Punjab University" ,
          "StartDate" :       "21-08-2022",
-         "EndDate"   :       "15-09-2022"
+         "EndDate"   :       "15-09-2022",
+         "eligibilityCriteria" : 50,
+         "EntryTest" : true,
+         "UrlLink" : "http://111.68.103.22/admissions/"
     },
     {
         "id" :   2,
         "UniversityName" :  "Government College University Lahore",
         "StartDate" :         "27-08-2022",
-        "EndDate"  :         "20-09-2022"
+        "EndDate"  :         "20-09-2022",
+        "eligibilityCriteria" : 50,
+        "UrlLink" : "http://www.gcuonline.pk/home/instructions"
     },
     {
         "id" :   3,
         "UniversityName" :  "Lahore College for Women University",
         "StartDate"  :         "29-08-2022",
-        "EndDate" :           "20-09-2022"
+        "EndDate" :           "20-09-2022",
+        "eligibilityCriteria" : 50,
+        "EntryTest" : true,
+        "UrlLink" : "https://www.lcwu.edu.pk/admissions-home.html"
     },
     {
         "id"   :   4,
         "UniversityName" :  "King Edward Medical University Lahore",
         "StartDate" :     "25-08-2022",
-        "EndDate" :       "15-09-2022"
+        "EndDate" :       "15-09-2022",
+        "eligibilityCriteria" : 60,
+        "MDCAT" : true,
+        "UrlLink" : "https://kemu.edu.pk/admissions-at-kemu"
     }
 ]

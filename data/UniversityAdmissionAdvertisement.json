@@ -3,24 +3,43 @@
         "id" : 0,
         "UniversityName" :  "Comsats University Islamabad Sahiwal Campus",
         "StartDate" : "12-06-2022",
-        "EndDate" : "20-08-2022"
+        "EndDate" : "20-08-2022",
+        "eligibilityCriteria" : 50,
+        "nts": true,
+        "UrlLink" : "https://admissions.comsats.edu.pk/"
+        
     },
     {
         "id" : 1,
         "UniversityName" :  "University of Sahiwal",
         "StartDate" : "12-06-2022",
-        "EndDate" : "20-08-2022"
+        "EndDate" : "20-08-2022",
+        "eligibilityCriteria" : 50,
+        "UrlLink" :  "https://uosahiwal.edu.pk/how_to_apply.php"
     },
     {
         "id" : 2,
         "UniversityName" :  "Arid University Sahiwal",
         "StartDate" : "12-06-2022",
-        "EndDate" : "20-08-2022"
+        "EndDate" : "20-08-2022",
+        "eligibilityCriteria" : 50,
+        "UrlLink" : "https://baraniinstitute.edu.pk/admission-process/"
     },
     {
         "id" : 4,
-        "UniversityName" :  "Arid University Sahiwal",
+        "UniversityName" :  "GC University Sahiwal Campus",
         "StartDate" : "12-06-2022",
-        "EndDate" : "20-08-2022"
+        "EndDate" : "20-08-2022",
+        "eligibilityCriteria" : 50,
+        "UrlLink" : "http://admissions.gcuf.edu.pk/"
+    },
+    {
+        "id" : 5,
+        "UniversityName" :  "Sahiwal Medical Collage",
+        "StartDate" : "12-06-2022",
+        "EndDate" : "20-08-2022",
+        "eligibilityCriteria" : 50,
+        "MDCAT" :  true,
+        "UrlLink" : "https://mbbs.org.pk/sahiwal-medical-college-admission/"
     }
 ]

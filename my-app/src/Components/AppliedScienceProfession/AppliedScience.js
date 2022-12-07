@@ -2,7 +2,15 @@ import './AppliedScience.css';
 import AppliedScienceImg from './science.png';
 import CardImage from './CardImage.avif';
 import UELogo from './UELogo.jpg';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import NutritonalScienceCard from './NutionalScienceCard.webp'
+import PULogo from './PULogo.jpg'
+import FoodScienceCard from './FoodScienceCard.png'
+import ComsatsIslamabad from './ComsatsIslamabad.jpg'
+import IubLogo from './IubLogo.jpg'
+import PhychologyCard from './PhychologyCard.jpeg'
+import UniofAgriculture from './UniofAgriculture.jpg'
+import HNDCard from './HNDCard.png'
 const AppliedScience = () => {
     return (
         <div>
@@ -39,7 +47,7 @@ const AppliedScience = () => {
               <div className='AppliedScience-Section2'>
                  <div className='Agriculture-SubSection1'>
                     <a href=''>
-                        <img src={CardImage} alt='LogoImage' className='Agriculture-CardLogo' />
+                        <img src={NutritonalScienceCard} alt='LogoImage' className='Agriculture-CardLogo' />
                     </a>
                     <div className='AppliedScience-cardText'>
                     <h3>Nutritional Science</h3>
@@ -51,20 +59,18 @@ const AppliedScience = () => {
                     </div>
                     <div className='AppliedScience-OrganizationInfo'>
                         <div className='UniLogo'>
-                            <img src={UELogo} alt='' />
+                            <img src={PULogo} alt='' />
                         </div>
                         <div className='UniName'>
-                            <p>University of Europe for<br /> Applied Science</p>
-                        <div className='Location'>
-                          <p> Berlin , Germany</p> 
-                            </div>
+                            <p>University of Punjab</p>
+                      
                         </div>
                         <p></p>
                     </div>
                  </div>
                  <div className='AppliedScience-SubSection1'>
                     <a href=''>
-                        <img src={CardImage} alt='LogoImage' className='Agriculture-CardLogo' />
+                        <img src={FoodScienceCard} alt='LogoImage' className='Agriculture-CardLogo' />
                     </a>
                     <div className='AppliedScience-cardText'>
                     <h3>Food Science</h3>
@@ -76,20 +82,18 @@ const AppliedScience = () => {
                     </div>
                     <div className='AppliedScience-OrganizationInfo'>
                         <div className='UniLogo'>
-                            <img src={UELogo} alt='' />
+                            <img src={ComsatsIslamabad} alt='' />
                         </div>
                         <div className='UniName'>
-                            <p className='uniName'>University of Europe for<br /> Applied Science</p>
-                        <div className='Location'>
-                          <p> Berlin , Germany</p> 
-                            </div>
+                            <p className='uniName'>Comsats University Sahiwal Campus</p>
+                        
                         </div>
                         <p></p>
                     </div>
                  </div>
                  <div className='AppliedScience-SubSection1'>
                     <a href=''>
-                        <img src={CardImage} alt='LogoImage' className='Agriculture-CardLogo' />
+                        <img src={PhychologyCard} alt='LogoImage' className='Agriculture-CardLogo' />
                     </a>
                     <div className='AppliedScience-cardText'>
                     <h3>Applied Psychology</h3>
@@ -101,20 +105,19 @@ const AppliedScience = () => {
                     </div>
                     <div className='AppliedScience-OrganizationInfo'>
                         <div className='UniLogo'>
-                            <img src={UELogo} alt='' />
+                            <img src={IubLogo} alt='' />
                         </div>
                         <div className='UniName'>
-                            <p>University of Europe for<br /> Applied Science</p>
-                        <div className='Location'>
-                          <p> Berlin , Germany</p> 
-                            </div>
+                            <p>Islamia University BhawalPur
+                            </p>
+                        
                         </div>
                         <p></p>
                     </div>
                  </div>
                  <div className='AppliedScience-SubSection1'>
                     <a href=''>
-                        <img src={CardImage} alt='LogoImage' className='AppliedScience-CardLogo' />
+                        <img src={HNDCard} alt='LogoImage' className='AppliedScience-CardLogo' />
                     </a>
                     <div className='AppliedScience-cardText'>
                     <h3>Human Nutrition Diet</h3>
@@ -126,13 +129,11 @@ const AppliedScience = () => {
                     </div>
                     <div className='AppliedScience-OrganizationInfo'>
                         <div className='UniLogo'>
-                            <img src={UELogo} alt='' />
+                            <img src={UniofAgriculture} alt='' />
                         </div>
                         <div className='UniName'>
-                            <p>University of Europe for<br /> Applied Science</p>
-                        <div className='Location'>
-                          <p> Berlin , Germany</p> 
-                            </div>
+                            <p>University of Agriculture Faislabad</p>
+                        
                         </div>
                         <p></p>
                     </div>

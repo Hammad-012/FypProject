@@ -3,13 +3,19 @@
         "id" : 0,
         "UniversityName" : "Khawaja fareed University of Engineering and technology",
         "StartDate" :    "02-08-2022",
-        "EndDate" :  "02-09-2022"
+        "EndDate" :  "02-09-2022",
+        "eligibilityCriteria" : 50,
+        "EntryTest" : true,
+        "UrlLink" : "https://eportal.kfueit.edu.pk/login?1=1&main=624&parent=Admissions"
     },
 
     {
         "id" : 1 ,
         "UniversityName" : "Shiekh Medical College Rahim yar Khan",
         "StartDate" :     "04-08-2022",
-        "EndDate"   :    "10-09-2022"
+        "EndDate"   :    "10-09-2022",
+        "eligibilityCriteria" : 60,
+        "MDCAT" : true,
+        "UrlLink" : "https://szmc.edu.pk/admission-open/"
     }
 ]

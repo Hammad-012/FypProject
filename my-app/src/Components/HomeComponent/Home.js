@@ -27,7 +27,8 @@ import WaahCanntimg from './WaahCannt.webp';
 import AbottabadImg from './Abottabad.webp';
 import BhawalPurImg from './BhawalPur.webp';
 import SargodhaImg from './Sargodha.webp';
-import Footer from '../FooterComponent/Footer'
+import Footer from '../FooterComponent/Footer';
+import MainImage from './MainImage.jpg'
 import {Link, useNavigate } from 'react-router-dom'
 import {useState, useEffect} from 'react';
 const Home = () => {
@@ -84,14 +85,14 @@ const Home = () => {
         
         <>
         <div className='Section1'>
-         <img src = {BPHeroImg} alt='Background-Image' />
+         <img src = {MainImage} alt='Background-Image' className='Background-Image' />
          <div className="content-container">
          <div className='Heading-container'>
             <h2 className='headingTextWraaper'>Find your dream Study</h2>
 
             <h2 className='secondheading'>Discover thousands of Bachelor's degrees in Pakistan!</h2>
         </div>
-            <div className='formWrapper'>
+            {/* <div className='formWrapper'>
             <form onSubmit={submitHandler}>
             <select type='text' placeholder='What to Study?' >
                 <option>Select Discipline</option>
@@ -110,7 +111,7 @@ const Home = () => {
                 Search
             </button>
             </form>
-            </div>
+            </div> */}
          </div>
          
         </div>

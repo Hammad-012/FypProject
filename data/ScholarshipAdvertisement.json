@@ -1,0 +1,34 @@
+[
+    {
+        "ScholarShipTitle"  : "The Punjab Educational Endowment Fund (PEEF)",
+        "Eligibility"  :      60,
+        "Description" :     "As per PEEF Eligibility Criteria"
+    },
+    {
+        "ScholarShipTitle" : "Ehsaas Undergraduate Scholarship Program",
+         "Eligibility" : 50,
+         "Description" :      "For Financially Neended Students"
+    },
+    {
+        "ScholarShipTitle" : "Talent Hunt Scholarship",
+        "Eligibility" : 85,
+        "Description" :    "85% and above marks in Inter or its equivalent Exam for BSCS & BSSE Programs "
+    },
+    {
+        "ScholarShipTitle" : "Kingship/Sibling",
+        "Eligibility"    :  "On Kinship/sibling basis",
+        "Description" :     "On Kinship/sibling basis Rs. 8,000/- per student per semester for all BS Programs"
+    },
+    {
+        "ScholarShipTitle" :  "Free Education for Top 10 Board Position Holders",
+        "Eligibility"  :        92,
+        "Description" :        "Top 10 Position holders (each category) of all BISE and PBTE for all BS Engineering Programs Top 10 Position holders (each category) of all BISE and PBTE for BSCS & BSSE Programs Top 10 Position holders (each category) of all BISE and PBTE for Other BS Non Engineering Programs(BSBA, BSAF, BSMTH, BSFSN and BSBI) "
+    },
+    {
+        "ScholarShipTitle" : "Special Subsidy/Scholarship for BS(Food Science & Nutrition)",
+        "Eligibility"         :  65,
+        "Description"   :       "65% and above marks in Inter or its equivalent Exam"
+    }
+    
+]
+

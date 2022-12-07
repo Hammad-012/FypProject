@@ -4,6 +4,13 @@
     "nts": "true",
     "disciplines": ["Computer Science & IT" , "Applied Science & Profession" , "Agriculture & Foresty" , "Art Design & Architecture" , "Buissness & Management" , "Education & Training" , "Engineering & Technology" , "Enviroment Studies & Earth Studies", "Hospitality & Lisure" , "Journalism & Media" , "Law" , "Medicine & Health" , "Natural Science & Mathametics" , "Humanities" , "Social Science"],
     "branches": ["Islamabad" , "Lahore" , "Sahiwal" , "Abottabad"],
+    "subjects": [
+        {
+            "subjectTitle": "Bachelor of Science in Artificial Intelligence",
+            "description": "Eligibility. Students are eligible for admission if they have Intermediate or equivalent A Level) with minimum 50% marks from accredited institution and *NTS-NAT test score with minimum 50% marks",
+            "duration": "4 year"
+        }
+    ],
     "requiredMarks": 50,
     "scholorships": [
         {

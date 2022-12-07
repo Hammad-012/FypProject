@@ -27,7 +27,7 @@
     margin: 0 auto;
      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
-.JournalismMediaTextHeading-Container p {
+.JournalismMedia-Container p {
     margin: 0 0 0.75rem;
 }
 .JournalismMedia-anchor a {
@@ -40,9 +40,9 @@
 }
 .JournalismMedia-cardText{
     display: flex;
+    justify-content: space-between;
     margin: 0 10px;
 }
-
 .JournalismMediaHeart-Icon{
     font-size: 1.5rem;
     color: #1e8558;

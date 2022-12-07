@@ -3,30 +3,41 @@
         "id" : 0,
         "UniversityName" : "Bahauddin Zakariya University - BZU",
         "StartDate" :      "12-08-2022",
-        "EndDate"  :       "14-09-2022"
+        "EndDate"  :       "14-09-2022",
+        "eligibilityCriteria" : 50,
+        "UrlLink" : "https://apply.bzu.edu.pk/"
     },
     {
         "id" : 1,
         "UniversityName" : "Muhammad Nawaz Sharif University Agriculture Multan",
         "StartDate" :   "25-08-2022",
-        "EndDate" :   "14-09-2022"
+        "EndDate" :   "14-09-2022",
+        "eligibilityCriteria" : 50,
+        "UrlLink" : "http://admission.mnsuam.edu.pk/login.php?login=fail"
     },
     {
         "id" : 2,
         "UniversityName" : "Institute of Southern Punjab",
         "StartDate" :      "25-08-2022",
-        "EndDate"   :     "21-09-2022"
+        "EndDate"   :     "21-09-2022",
+        "eligibilityCriteria" : 50,
+        "UrlLink" : "https://www.isp.edu.pk/apply-to-isp/"
     },
     {
         "id" : 3,
         "UniversityName" : "Pakistan Institute of Engineering and Technology",
         "StartDate" : "17-08-2022",
-        "EndDate"  :   "02-09-2022"
+        "EndDate"  :   "02-09-2022",
+        "eligibilityCriteria" : 50,
+        "UrlLink" : "http://admission.piet.edu.pk/"
     },
     {
         "id" : 4,
         "UniversityName" : "Nishtar Medical University",
         "StartDate" :    "15-09-2022",
-        "EndDate"   :     "16-10-2022"
+        "EndDate"   :     "16-10-2022",
+        "eligibilityCriteria" : 50,
+        "MDCAT" : true,
+        "UrlLink" : "https://nmu.edu.pk/forms/"
     }
 ]

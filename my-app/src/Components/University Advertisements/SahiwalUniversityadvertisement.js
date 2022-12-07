@@ -1,6 +1,8 @@
 import { useEffect , useState } from "react";
 import {Table} from 'react-bootstrap'
 import { useParams } from "react-router-dom";
+import CalculaterForm from "../Form/CalculaterForm";
+import PopUpModel from "../PopUpModel/PopUpModel";
 
 const SahiwalUniversityAdvertisement = () => {
     const [universitiesAdmission , setuniversitiesAdmission] = useState([]);
@@ -14,6 +16,13 @@ const SahiwalUniversityAdvertisement = () => {
     const [BhawalPurAdmissionAdvertisement , setBhawalPurAdmissionAdvertisement] = useState([]);
     const [WaahCantAdmissionAdvertisement , setWaahCantAdmissionAdvertisement] = useState([]);
     const [SargodhaAdmissionAdvertisement , setSargodhaAdmissionAdvertisement] = useState([]);
+    const [data, setData] = useState({});
+    const [showForm, setShowForm] = useState(null);
+    const [isEligible, setIsEligible] = useState(false)
+   const [openModel , setOpenModel] = useState(false);
+   const [Name , setName] = useState('');
+   const [Result , setResult] = useState('');
+   const [Link , setLink] = useState('');
     const params = useParams();
     console.log(params.city)
    useEffect(()=>{
@@ -229,7 +238,26 @@ const SahiwalUniversityAdvertisement = () => {
         console.log(err.message)
     })
    }, [])
+
+   const showFormHandler = (dataObj) => {
+    setData(dataObj)
+    setShowForm(true);
+   }
+   const closeFormHandler = () => {
+    setShowForm(false);
+   }
+   const openModelHandler = () => {
+    setOpenModel(true)
+   }
+   const closePopUpHandler=()=>{
+    setOpenModel(false)
+   }
+   
+   
     return  (
+        <>
+        {openModel ? <PopUpModel isEligible={`${isEligible ? 'You are Elligible' : 'You are not Elligible'}`} openModel={openModelHandler}  closePopUpHandler={closePopUpHandler} data={data} Name={Name} Result={Result} Link={Link}  /> : null}
+        {showForm ? <CalculaterForm setIsEligible={setIsEligible} openModel={openModelHandler} closeFormHandler={closeFormHandler} data={data} setName={setName} setResult={setResult} setLink={setLink} /> : null }
         <div>
              <Table striped bordered hover>
                 <thead>
@@ -239,6 +267,7 @@ const SahiwalUniversityAdvertisement = () => {
                     <th>University Name</th>
                     <th>Start Date</th>
                     <th>End Date</th>
+                    <th>Check Eligibility</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -249,6 +278,11 @@ const SahiwalUniversityAdvertisement = () => {
                         <td>{element.UniversityName}</td>
                         <td>{element.StartDate}</td>
                         <td>{element.EndDate}</td>
+                        <td>
+                            <button className="btn btn-primary" onClick={() => { showFormHandler(element) }}>
+                                Check Eligibility
+                            </button>
+                        </td>
                         </tr>
                           )
                     })}
@@ -262,6 +296,11 @@ const SahiwalUniversityAdvertisement = () => {
                         <td>{element.UniversityName}</td>
                         <td>{element.StartDate}</td>
                         <td>{element.EndDate}</td>
+                        <td>
+                            <button className="btn btn-primary" onClick={() => { showFormHandler(element) }}>
+                                Check Eligibility
+                            </button>
+                        </td>
                         </tr>
                           )
                     })}
@@ -275,6 +314,12 @@ const SahiwalUniversityAdvertisement = () => {
                         <td>{element.UniversityName}</td>
                         <td>{element.StartDate}</td>
                         <td>{element.EndDate}</td>
+                        <td>
+                            <button className="btn btn-primary" onClick={() => { showFormHandler(element) }}>
+                                Check Eligibility
+                            </button>
+                        </td>
+
                         </tr>
                           )
                     })}
@@ -288,6 +333,11 @@ const SahiwalUniversityAdvertisement = () => {
                         <td>{element.UniversityName}</td>
                         <td>{element.StartDate}</td>
                         <td>{element.EndDate}</td>
+                        <td>
+                            <button className="btn btn-primary" onClick={() => { showFormHandler(element) }}>
+                                Check Eligibility
+                            </button>
+                        </td>
                         </tr>
                           )
                     })}
@@ -301,6 +351,11 @@ const SahiwalUniversityAdvertisement = () => {
                         <td>{element.UniversityName}</td>
                         <td>{element.StartDate}</td>
                         <td>{element.EndDate}</td>
+                        <td>
+                            <button className="btn btn-primary" onClick={() => { showFormHandler(element) }}>
+                                Check Eligibility
+                            </button>
+                        </td>
                         </tr>
                           )
                     })}
@@ -314,6 +369,11 @@ const SahiwalUniversityAdvertisement = () => {
                         <td>{element.UniversityName}</td>
                         <td>{element.StartDate}</td>
                         <td>{element.EndDate}</td>
+                        <td>
+                            <button className="btn btn-primary" onClick={() => { showFormHandler(element) }}>
+                                Check Eligibility
+                            </button>
+                        </td>
                         </tr>
                           )
                     })}
@@ -327,6 +387,11 @@ const SahiwalUniversityAdvertisement = () => {
                         <td>{element.UniversityName}</td>
                         <td>{element.StartDate}</td>
                         <td>{element.EndDate}</td>
+                        <td>
+                            <button className="btn btn-primary" onClick={() => { showFormHandler(element) }}>
+                                Check Eligibility
+                            </button>
+                        </td>
                         </tr>
                           )
                     })}
@@ -340,6 +405,11 @@ const SahiwalUniversityAdvertisement = () => {
                         <td>{element.UniversityName}</td>
                         <td>{element.StartDate}</td>
                         <td>{element.EndDate}</td>
+                        <td>
+                            <button className="btn btn-primary" onClick={() => { showFormHandler(element) }}>
+                                Check Eligibility
+                            </button>
+                        </td>
                         </tr>
                           )
                     })}
@@ -353,6 +423,11 @@ const SahiwalUniversityAdvertisement = () => {
                         <td>{element.UniversityName}</td>
                         <td>{element.StartDate}</td>
                         <td>{element.EndDate}</td>
+                        <td>
+                            <button className="btn btn-primary" onClick={() => { showFormHandler(element) }}>
+                                Check Eligibility
+                            </button>
+                        </td>
                         </tr>
                           )
                     })}
@@ -366,6 +441,11 @@ const SahiwalUniversityAdvertisement = () => {
                         <td>{element.UniversityName}</td>
                         <td>{element.StartDate}</td>
                         <td>{element.EndDate}</td>
+                        <td>
+                            <button onClick={() => { showFormHandler(element) }}>
+                                Check Eligibility
+                            </button>
+                        </td>
                         </tr>
                           )
                     })}
@@ -379,6 +459,11 @@ const SahiwalUniversityAdvertisement = () => {
                         <td>{element.UniversityName}</td>
                         <td>{element.StartDate}</td>
                         <td>{element.EndDate}</td>
+                        <td>
+                            <button className="btn btn-primary" onClick={() => { showFormHandler(element) }}>
+                                Check Eligibility
+                            </button>
+                        </td>
                         </tr>
                           )
                     })}
@@ -388,6 +473,7 @@ const SahiwalUniversityAdvertisement = () => {
              </Table>
             
         </div>
+        </>
     )
 }
 export default SahiwalUniversityAdvertisement;

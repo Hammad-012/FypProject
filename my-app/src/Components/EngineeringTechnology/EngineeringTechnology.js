@@ -1,4 +1,5 @@
 import './EngineeringTechnology.css';
+import {Link} from 'react-router-dom';
 import technologyImg from './technology.png';
 import CardImage from './CardImage.avif';
 import UELogo from './UELogo.jpg';
@@ -28,9 +29,9 @@ const EngineeringTechnology = () => {
                     </div>
                  </div>
                  <div className='EngineeringTechnology-anchor'>
-                   <a href='#'>
+                   <Link to='/EngineeringTechnologyAdvertisement'>
                        <p>View all Bachelor's Degrees in Engineering & Technology</p>
-                   </a>
+                   </Link>
                    <div className='interstingProgram-Heading'>
                        <h1>Interesting programmes for you</h1>
                    </div>
@@ -139,7 +140,7 @@ const EngineeringTechnology = () => {
                    
                  </div>
                  <div className='DispayCoversion'>
-                          <a href='#' className='ChampionButton'>View all Bachelor's Degrees in Engineering & Technology</a>
+                          <Link to='/EngineeringTechnologyAdvertisement' className='ChampionButton'>View all Bachelor's Degrees in Engineering & Technology</Link>
                     </div>
            </div>
            <div className='EngineeringTechnology-Section3'>

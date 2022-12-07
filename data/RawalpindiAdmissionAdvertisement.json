@@ -3,30 +3,42 @@
         "id" : 0,
         "UniversityName" : "Barani Institute of Information Technology (Biit)",
         "StartDate" :   "15-09-2022",
-        "EndDate"  :    "10-10-2022"
+        "EndDate"  :    "10-10-2022",
+        "eligibilityCriteria" : 50,
+        "UrlLink" : "http://www.biit.edu.pk/admissions.html"
     },
     {
         "id" : 1,
         "UniversityName" :  "Pir Mehr Ali Shah Arid Agriculture University",
         "StartDate"  :       "09-09-2022",
-        "EndDate"   :        "10-10-2022"
+        "EndDate"   :        "10-10-2022",
+        "eligibilityCriteria" : 50,
+        "EntryTest" : true,
+        "UrlLink" : "http://umsportal.uaar.edu.pk/arid/public/candidate/login"
     },
     {
         "id" : 2,
         "UniversityName" : "Virtual University Campus, Rawalpindi",
         "StartDate" :    "05-09-2022",
-        "EndDate"  :    "10-10-2022"
+        "EndDate"  :    "10-10-2022",
+        "eligibilityCriteria" : 50
+        
     },
     {
         "id"  : 3,
         "UniversityName" : "National College of Arts",
         "StartDate" : "6-10-2022",
-        "EndDate"   :   "10-11-2022"
+        "EndDate"   :   "10-11-2022",
+        "eligibilityCriteria" : 45,
+        "UrlLink" : "https://www.nca.edu.pk/admission-information"
     },
     {
         "id" : 4,
         "UniversityName" : "Rawalpindi Medical University",
         "StartDate" : "15-09-2022",
-        "EndDate" :    "25-10-2022"
+        "EndDate" :    "25-10-2022",
+        "eligibilityCriteria" : 60,
+        "MDCAT" : true,
+        "UrlLink" : "https://rmur.edu.pk/mbbs/"
     }
 ]

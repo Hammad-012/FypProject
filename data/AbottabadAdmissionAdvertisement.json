@@ -3,18 +3,26 @@
         "id" : 0,
         "UniversityName" : "Comsats University Islamabad Abottabad Campus",
         "StartDate"  :   "12-08-2022",
-        "EndDate"  :    "14-09-2022"
+        "EndDate"  :    "14-09-2022",
+        "eligibilityCriteria" : 50,
+        "nts" : true,
+        "UrlLink" : "http://admissions.comsats.edu.pk/"
     },
     {
         "id" : 1,
         "UniversityName" :  "Abottabad University of Science and technology",
         "StartDate" :    "10-08-2022",
-        "EndDate"  :     "03-09-2022"
+        "EndDate"  :     "03-09-2022",
+        "eligibilityCriteria" : 50,
+        "UrlLink" : "https://aust.edu.pk/ADAUST/"
     },
     {
         "id" : 2,
         "UniversityName" :   "Abottabad International Medical Institute",
         "StartDate"  :       "04-09-2022",
-        "EndDate"   :       "04-10-2022"
+        "EndDate"   :       "04-10-2022",
+        "eligibilityCriteria" : 50,
+        "MDCAT" : true,
+        "UrlLink" : "https://aimi.edu.pk/admission-process-2022-23"
     }
 ]

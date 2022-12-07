@@ -1,4 +1,5 @@
 import './MedicinHealth.css';
+import {Link} from 'react-router-dom';
 import MedicinImg from './syringe.png';
 import CardImage from './CardImage.avif';
 import UELogo from './UELogo.jpg';
@@ -28,9 +29,9 @@ const MedicinHealth = () => {
                  </div>
               </div>
               <div className='MedicinHealth-anchor'>
-                <a href='#'>
+                <Link to='/MedicinHealthAdvertisement'>
                     <p>View all Bachelor's Degrees in Medicine & Health</p>
-                </a>
+                </Link>
                 <div className='interstingProgram-Heading'>
                     <h1>Interesting programmes for you</h1>
                 </div>
@@ -139,7 +140,7 @@ const MedicinHealth = () => {
                 
               </div>
               <div className='DispayCoversion'>
-                       <a href='#' className='ChampionButton'>View all Bachelor's Degrees in Medicine & Health</a>
+                       <Link to='/MedicinHealthAdvertisement' className='ChampionButton'>View all Bachelor's Degrees in Medicine & Health</Link>
                  </div>
                  <div className='MedicinHealth-Section3'>
                     <div className='MedicinHealthSub-SectionHeading'>

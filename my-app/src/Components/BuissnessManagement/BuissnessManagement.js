@@ -1,7 +1,15 @@
 import'./BuissnessManagement.css';
+import {Link} from 'react-router-dom'
 import BuissnessManagementImg from './briefcase.png';
 import CardImg from './CardImage.avif';
 import UELogo from './UELogo.jpg';
+import ComsatsIslamabad from './ComsatsIslamabad.jpg'
+import AccountingFinanceCard from './AccountingFinanceCard.png'
+import BuissnessManagementCard from './BuisnessManagementCard.jpeg'
+import BACard from './BACard.jpeg';
+import LUMSLogo from './LUMSLogo.jpeg'
+import IubLogo from './IubLogo.jpg'
+import EcnomicsCard from './EcnomicsCard.jpeg'
 const BuissnessManagement = () => {
     return(
         <div>
@@ -30,9 +38,9 @@ const BuissnessManagement = () => {
                     </div>
                  </div>
                  <div className='BuissnessManagement-anchor'>
-                   <a href='#'>
+                   <Link to='/BuisnessManagementAdvertisement'>
                        <p>View all Bachelor's Degrees in Business & Management</p>
-                   </a>
+                   </Link>
                    <div className='interstingProgram-Heading'>
                        <h1>Interesting programmes for you</h1>
                    </div>
@@ -40,7 +48,7 @@ const BuissnessManagement = () => {
                  <div className='BuissnessManagement-Section2'>
                     <div className='BuissnessManagement-SubSection1'>
                        <a href=''>
-                           <img src={CardImg} alt='LogoImage' className='BuissnessManagement-CardLogo' />
+                           <img src={AccountingFinanceCard} alt='LogoImage' className='BuissnessManagement-CardLogo' />
                        </a>
                        <div className='BuissnessManagement-cardText'>
                        <h3>Accounting&Finance</h3>
@@ -52,20 +60,18 @@ const BuissnessManagement = () => {
                        </div>
                        <div className='BuissnessManagement-OrganizationInfo'>
                            <div className='UniLogo'>
-                               <img src={UELogo} alt='' />
+                               <img src={ComsatsIslamabad} alt='' />
                            </div>
                            <div className='UniName'>
-                               <p>University of Europe for<br /> Applied Science</p>
-                           <div className='Location'>
-                             <p> Berlin , Germany</p> 
-                               </div>
+                               <p>Comsats University Islamabad Sahiwal Campus</p>
+                        
                            </div>
                            <p></p>
                        </div>
                     </div>
                     <div className='BuissnessManagement-SubSection1'>
                        <a href=''>
-                           <img src={CardImg} alt='LogoImage' className='Agriculture-CardLogo' />
+                           <img src={BuissnessManagementCard} alt='LogoImage' className='Agriculture-CardLogo' />
                        </a>
                        <div className='BuissnessManagement-cardText'>
                        <h3>Buissness Management</h3>
@@ -77,20 +83,18 @@ const BuissnessManagement = () => {
                        </div>
                        <div className='BuissnessManagement-OrganizationInfo'>
                            <div className='UniLogo'>
-                               <img src={UELogo} alt='' />
+                               <img src={ComsatsIslamabad} alt='' />
                            </div>
                            <div className='UniName'>
-                               <p className='uniName'>University of Europe for<br /> Applied Science</p>
-                           <div className='Location'>
-                             <p> Berlin , Germany</p> 
-                               </div>
+                               <p className='uniName'>Comsats University Islamabad Sahiwal Campus</p>
+                           
                            </div>
                            <p></p>
                        </div>
                     </div>
                     <div className='BuissnessManagement-SubSection1'>
                        <a href=''>
-                           <img src={CardImg} alt='LogoImage' className='BuissnessManagement-CardLogo' />
+                           <img src={BACard} alt='LogoImage' className='BuissnessManagement-CardLogo' />
                        </a>
                        <div className='BuissnessManagement-cardText'>
                        <h3>Buissness Administration</h3>
@@ -102,23 +106,21 @@ const BuissnessManagement = () => {
                        </div>
                        <div className='BuissnessManagement-OrganizationInfo'>
                            <div className='UniLogo'>
-                               <img src={UELogo} alt='' />
+                               <img src={LUMSLogo} alt='' />
                            </div>
                            <div className='UniName'>
-                               <p>University of Europe for<br /> Applied Science</p>
-                           <div className='Location'>
-                             <p> Berlin , Germany</p> 
-                               </div>
+                               <p>Lahore University Management Science</p>
+                           
                            </div>
                            <p></p>
                        </div>
                     </div>
                     <div className='BuissnessManagement-SubSection1'>
                        <a href=''>
-                           <img src={CardImg} alt='LogoImage' className='BuissnessManagement-CardLogo' />
+                           <img src={EcnomicsCard} alt='LogoImage' className='BuissnessManagement-CardLogo' />
                        </a>
                        <div className='BuissnessManagement-cardText'>
-                       <h3>Buissness Marketing</h3>
+                       <h3>Economics</h3>
                        <div className='Heat-Icon'>
                           <span className='BuissnessManagementHeart-Icon'>
                           <ion-icon name="heart-outline"></ion-icon>
@@ -127,13 +129,11 @@ const BuissnessManagement = () => {
                        </div>
                        <div className='BuissnessManagement-OrganizationInfo'>
                            <div className='UniLogo'>
-                               <img src={UELogo} alt='' />
+                               <img src={IubLogo} alt='' />
                            </div>
                            <div className='UniName'>
-                               <p>University of Europe for<br /> Applied Science</p>
-                           <div className='Location'>
-                             <p> Berlin , Germany</p> 
-                               </div>
+                               <p>Islamia University BhawalPur</p>
+                           
                            </div>
                            <p></p>
                        </div>
@@ -141,7 +141,7 @@ const BuissnessManagement = () => {
                    
                  </div>
                  <div className='DispayCoversion'>
-                          <a href='#' className='ChampionButton'>View all Bachelor's Degrees in Business & Management</a>
+                          <Link to='/BuisnessManagementAdvertisement' className='ChampionButton'>View all Bachelor's Degrees in Business & Management</Link>
                     </div>
            </div>
            <div className='BuissnessManagement-Section3'>
