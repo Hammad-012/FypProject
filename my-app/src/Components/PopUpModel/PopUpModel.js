@@ -1,8 +1,32 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './PopUpModel.css'
 import {Link} from 'react-router-dom';
+
 const PopUpModel = (props) => {
-   
+    const [scholarship ,  setScholarship] = useState([])
+    useEffect(()=>{
+        fetch('http://127.0.0.1:8000/ScholarshipAdvertisement')
+        .then((resp)=> {
+            if(resp.ok === false) {
+                throw new Error ('Error Message')
+            }
+            return resp.json()
+        })
+        .then((respdata)=> {
+             setScholarship(respdata.ScholarshipAdvertisement)
+             
+        })
+        .catch((err)=>{
+            console.log(err.message)
+         })
+    },[])
+    
+const filterFunc = (element) => {
+    if(+props.Result >= +element.Eligibility) {
+        return true
+    }
+}
+const findedElement = scholarship.find(filterFunc)
     return (
         <div className='PopUpModel-Container'>
          <div className='PopUp'>
@@ -19,9 +43,13 @@ const PopUpModel = (props) => {
           </div>
           </div>
       <a href={props.data.UrlLink} className='btn btn-primary button'>Apply Now</a> 
+       <br />
+       <div>
+       {scholarship.length !== 0 ? <h4>{findedElement.ScholarShipTitle}</h4>  : null}
+       </div>
          </div>
          <div className='PopUp-footer'>
-           
+        
          </div>
         </div>
     )

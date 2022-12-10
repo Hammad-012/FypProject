@@ -39,6 +39,7 @@ import RegistrationForm from './Components/RegistrationForm/RegistrationForm';
 import SignInform from './Components/SignInForm/SignInform';
 import ScholarshipAdvertisement from './Components/ScholarshipAdvertisement/ScholarshipAdvetisement';
 import ProtectedRoutes from './Components/ProtectedRoutes/ProtectedRoutes';
+import ForgotPassword from './Components/ForgotPassword/ForgotPassword';
 function App() {
   return (
     <div className="App">
@@ -78,6 +79,7 @@ function App() {
       <Route path='/career' element={<Career />} />
       <Route path='/SignInform' element={<SignInform />}  />
       <Route path='/login-form' element={<RegistrationForm />}  />
+      <Route path='/forgot-password' element={<ForgotPassword />}  />
       <Route path='/Scholarships' element={<ProtectedRoutes Component={ScholarshipAdvertisement} />} />
        </Routes>
       

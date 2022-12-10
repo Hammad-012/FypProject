@@ -16,6 +16,7 @@ const SahiwalUniversityAdvertisement = () => {
     const [BhawalPurAdmissionAdvertisement , setBhawalPurAdmissionAdvertisement] = useState([]);
     const [WaahCantAdmissionAdvertisement , setWaahCantAdmissionAdvertisement] = useState([]);
     const [SargodhaAdmissionAdvertisement , setSargodhaAdmissionAdvertisement] = useState([]);
+   
     const [data, setData] = useState({});
     const [showForm, setShowForm] = useState(null);
     const [isEligible, setIsEligible] = useState(false)
@@ -252,6 +253,7 @@ const SahiwalUniversityAdvertisement = () => {
    const closePopUpHandler=()=>{
     setOpenModel(false)
    }
+ 
    
    
     return  (

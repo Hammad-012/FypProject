@@ -1,12 +1,20 @@
 import './LinkList.css';
-import {Link} from 'react-router-dom'
+import {Link , useNavigate} from 'react-router-dom'
 import Home from '../HomeComponent/Home'
 const LinkList = () => {
+  const Navigate = useNavigate()
+  const Logout = () => {
+    localStorage.clear();
+    Navigate('login-form')
+  }
     return (
         <>
        <ul className='right-container2'>
-        <li>
-            <Link to='/Scholarships' className='wishlist-container'>
+          {
+            localStorage.getItem('login') ? 
+            <>
+          <li>
+           <Link to='/Scholarships' className='wishlist-container'>
                Scholarships
             </Link>
             </li>
@@ -20,16 +28,32 @@ const LinkList = () => {
               Contact us
             </a>
             </li>
-            <li>
+            </>
+            :  
+            <>
+              <li>
             <a href='#'  className='signin-container'>
                 <span>
                 <Link to='/login-form'>
-                <ion-icon name="person-outline"></ion-icon>
-               <p className='signinText' >Sign in</p> </Link>
+                {/* <ion-icon name="person-outline"></ion-icon> */}
+               <p className='signinText' >Sign up</p> </Link>
                 </span>
             </a>
             </li>
+            </>
             
+          }
+          {
+            localStorage.getItem('login') ?
+            <li>
+            <a href='' className='wishlist-container' onClick={Logout}>
+               Logout
+             </a>
+             </li>
+            : null 
+
+          }
+          
        </ul>
       
         </>

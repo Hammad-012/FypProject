@@ -1,11 +1,19 @@
 import './RegistrationForm.css';
-import { Link } from 'react-router-dom'
+import { Link , useNavigate} from 'react-router-dom'
 import { useState, useRef, useEffect } from 'react';
 
 const RegistrationForm = () => {
+useEffect(()=> {
+  if(localStorage.getItem('login'))
+  {
+    Navigate('/')
+  }
+}, [])
+
     const EmailInputref = useRef();
     const PasswordInputref = useRef();
     const [isRegister, setIsRegister] = useState(true)
+    const Navigate = useNavigate()
     const SitchAuthHandler = () => {
         setIsRegister((previousState) => !previousState)
     }
@@ -48,7 +56,7 @@ const RegistrationForm = () => {
             .catch((err)=>{
                 alert(err.message)
             })
-    
+        Navigate('/SignInform')
     
   
     }

@@ -88,7 +88,7 @@ useEffect(() => {
                     <input className="form-check-input" type="checkbox" value="" id="form1Example3" defaultChecked />
                    
                   </div>
-                  <a href="#!">Forgot password?</a>
+                  <a href="/forgot-password">Forgot password?</a>
                 </div>
       
                 
