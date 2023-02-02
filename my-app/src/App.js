@@ -40,7 +40,9 @@ import SignInform from './Components/SignInForm/SignInform';
 import ScholarshipAdvertisement from './Components/ScholarshipAdvertisement/ScholarshipAdvetisement';
 import ProtectedRoutes from './Components/ProtectedRoutes/ProtectedRoutes';
 import ForgotPassword from './Components/ForgotPassword/ForgotPassword';
+
 function App() {
+
   return (
     <div className="App">
       <Header />

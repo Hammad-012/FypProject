@@ -2,8 +2,9 @@ import './CalculaterForm.css'
 import PopUpModel from '../PopUpModel/PopUpModel'
 import { useRef, useState } from 'react'
 import { Link } from 'react-router-dom';
+import { firestore } from '../firebase';
+import {addDoc, collection} from '@firebase/firestore'
 const CalculaterForm = (props) => {
-    
     const Name = useRef();
     const MatricMarksInputref = useRef();
     const IntermediateMarksInputref = useRef();
@@ -11,9 +12,28 @@ const CalculaterForm = (props) => {
     const EntryTestInputref = useRef();
     const MDCATInputref = useRef()
     console.log(props.data)
-    const formSubmitHandler = (event) => {
+    const ref = collection(firestore, "Data");
+    const formSubmitHandler = async (event) => {
         event.preventDefault();
-       
+        // console.log(Name.current.value)
+        // console.log(EntryTestInputref.current.value)
+        // console.log(MDCATInputref.current.value)
+   let Data= {
+        name : Name.current.value,
+        matricmarks : MatricMarksInputref.current.value,
+        intermediateMarks: IntermediateMarksInputref.current.value,
+        NtsMarks:   props.data.nts ? NtsMarksInputref.current.value : false,
+        EntryTest :  props.data.EntryTest ? EntryTestInputref.current.value : false,
+        MDCATmarks : props.data.MDCAT ? MDCATInputref.current.value : false
+
+   }
+  
+   try {
+    addDoc(ref,Data);
+   } catch(event) {
+    console.log(event)
+   }
+
         const EnteredName = Name.current.value;
         const EnteredMatricMarks = MatricMarksInputref.current.value;
         const EnteredIntermediateMarks = IntermediateMarksInputref.current.value;
@@ -35,23 +55,23 @@ const CalculaterForm = (props) => {
          
         }
         if(Result >= props.data.eligibilityCriteria) {
-               alert('Congraluation You are Eligible for Admission')
-                //   props.setIsEligible()
-                //   props.openModel()
-                //   props.closeFormHandler()
-                //   props.setResult(Result);
-                //   props.setName(EnteredName);
-                //   props.setLink(Link)
+            //    alert('Congraluation You are Eligible for Admission')
+                  props.setIsEligible()
+                  props.openModel()
+                  props.closeFormHandler()
+                  props.setResult(Result);
+                  props.setName(EnteredName);
+                  props.setLink(Link)
                
             }
             else {
-                alert(' You are not Elligible for Admission')
-                // props.setIsEligible();
-                // props.openModel();
-                // props.closeFormHandler();
-                // props.setResult(Result);
-                // props.setName(EnteredName);
-                // props.setLink(Link)
+                // alert(' You are not Elligible for Admission')
+                props.setIsEligible();
+                props.openModel();
+                props.closeFormHandler();
+                props.setResult(Result);
+                props.setName(EnteredName);
+                props.setLink(Link)
                
                }
                if(props.data){
@@ -60,23 +80,23 @@ const CalculaterForm = (props) => {
                 console.log(Result)
                }
                if(Result >= props.data.eligibilityCriteria) {
-                   alert('Congraluation You are Eligible for Admission')
-                    //   props.setIsEligible(true)
-                    //   props.openModel()
-                    //   props.closeFormHandler()
-                    //   props.setResult(Result);
-                    //   props.setName(EnteredName);
-                    //   props.setLink(Link)
+                //    alert('Congraluation You are Eligible for Admission')
+                      props.setIsEligible(true)
+                      props.openModel()
+                      props.closeFormHandler()
+                      props.setResult(Result);
+                      props.setName(EnteredName);
+                      props.setLink(Link)
                     
                 }
                else {
-                alert('Congraluation You are not Eligible for Admission')
-                // props.setIsEligible(false);
-                // props.openModel();
-                // props.closeFormHandler();
-                // props.setResult(Result);
-                // props.setName(EnteredName);
-                // props.setLink(Link)
+                // alert('Congraluation You are not Eligible for Admission')
+                props.setIsEligible(false);
+                props.openModel();
+                props.closeFormHandler();
+                props.setResult(Result);
+                props.setName(EnteredName);
+                props.setLink(Link)
                
                }
        
@@ -147,19 +167,19 @@ const CalculaterForm = (props) => {
                     </li>
                     <li>
                         <label>Name</label>
-                        <input type="text" placeholder="Name" ref={Name} required></input>
+                        <input type="text" placeholder="Name" ref={Name}  required></input>
                     </li>
                     <li>
                         <label>Matric Marks</label>
-                        <input type="number" placeholder="Matric Marks" ref={MatricMarksInputref} required></input>
+                        <input type="number" placeholder="Matric Marks" ref={MatricMarksInputref}    required></input>
                     </li>
                     <li>
                         <label>Intermediate Marks</label>
-                        <input type="number" placeholder="Intermediate Marks" ref={IntermediateMarksInputref} required></input>
+                        <input type="number" placeholder="Intermediate Marks" ref={IntermediateMarksInputref}  required></input>
                     </li>
                     {props.data.nts ? <li>
                         <label>Nts Marks</label>
-                        <input type="number" placeholder="Nts Marks" ref={NtsMarksInputref} required></input>
+                        <input type="number" placeholder="Nts Marks" ref={NtsMarksInputref}  required></input>
                     </li> : null}
                     {props.data.EntryTest ? <li>
                         <label>Entry Test Marks</label>
@@ -167,7 +187,7 @@ const CalculaterForm = (props) => {
                     </li> : null}
                     {props.data.MDCAT ? <li>
                         <label>MDCAT Marks</label>
-                        <input type="number" placeholder="MDCAT Marks" ref={MDCATInputref} required></input>
+                        <input type="number" placeholder="MDCAT Marks" ref={MDCATInputref}  required></input>
                     </li> : null}
                     <li>
                          

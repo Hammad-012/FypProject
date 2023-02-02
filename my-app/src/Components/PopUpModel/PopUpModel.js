@@ -26,7 +26,8 @@ const filterFunc = (element) => {
         return true
     }
 }
-const findedElement = scholarship.find(filterFunc)
+const findedElements = scholarship.filter(filterFunc)
+console.log(findedElements)
     return (
         <div className='PopUpModel-Container'>
          <div className='PopUp'>
@@ -37,15 +38,16 @@ const findedElement = scholarship.find(filterFunc)
          </li>
           <h2>{props.Name}</h2>
           <h4>Your Aggrigate is :{props.Result}</h4>
-          <p>{props.isEligible}</p>
+          <p>{findedElements ? 'you are eligible' : "you are not eligible"}</p>
           <div>
 
           </div>
           </div>
-      <a href={props.data.UrlLink} className='btn btn-primary button'>Apply Now</a> 
+          {findedElements ? <a href={props.data.UrlLink} className='btn btn-primary button'>Apply Now</a> : null}
+      
        <br />
        <div>
-       {scholarship.length !== 0 ? <h4>{findedElement.ScholarShipTitle}</h4>  : null}
+       {scholarship.length !== 0 && findedElements ? findedElements.map((element) => <h4>{element.ScholarShipTitle}</h4>)    : null}
        </div>
          </div>
          <div className='PopUp-footer'>

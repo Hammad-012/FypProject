@@ -1,6 +1,5 @@
 import './ScholarshipAdvertisement.css';
 import { useEffect, useState } from 'react';
-import { propTypes } from 'react-bootstrap/esm/Image';
 const ScholarshipAdvertisement = () => {
     const [scholarship ,  setScholarship] = useState([])
     useEffect(()=>{

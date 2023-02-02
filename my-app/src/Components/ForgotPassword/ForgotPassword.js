@@ -1,86 +1,63 @@
-import { useState } from "react";
+import { useEffect, useState , useRef } from "react";
 import { Link } from "react-router-dom";
-import SignInform from "../SignInForm/SignInform";
+
+
 const ForgotPassword = () => {
+    const EnteredEmailRef =  useRef()
+    const [email , setEmail] = useState('');
 
-    const [email, setEmail] = useState('');
-    const [validate, setValidate] = useState({});
+       
 
-    const validateforgotPassword = () => {
-        let isValid = true;
+    const SubmitHandler =  (event) => {
+       event.preventDefault();
+       const EnteredEmail = EnteredEmailRef.current.value
+      fetch('https://identitytoolkit.googleapis.com/v1/accounts:sendOobCode?key=AIzaSyC3igHnesMZLY2SxVnir9d_4z1rwuAOllU',
+       {
+           method: "POST",
+           body: JSON.stringify({
+               email: EnteredEmail,
+               requestType: "PASSWORD_RESET"
+           }),
+           headers: {
+               'Content-Type': 'application/json'
+           }
+       }
+       )
+       .then((res) => {
+           if (res.ok === false) {
+               return res.json()
+           }
+           return res.json()
+       })
+       .then((resData) => {
+           console.log(resData)
+           if(resData.error) {
+             throw new Error(resData.error.errors[0].message)
+           }
+           
+       })
+      .catch((err)=>{
+       // console.log(err.message);
+       alert(err.message)
+      })
+   }
 
-        let validator = SignInform.validator({
-            email: {
-                value: email,
-                isRequired: true,
-                isEmail: true
-            }
-        });
-
-        if (validator !== null) {
-            setValidate({
-                validate: validator.errors
-            })
-
-            isValid = false
-        }
-        return isValid;
-    }
-
-    const forgotPassword = (e) => {
-        e.preventDefault();
-
-        const validate = validateforgotPassword();
-
-        if (validate) {
-            alert('Reset password link is sent to '+email);
-            setValidate({});
-            setEmail('');
-        }
-    }
+       
+    
 
     return (
-        <div className="row g-0 auth-wrapper">
-            <div className="col-12 col-md-5 col-lg-6 h-100 auth-background-col">
-                <div className="auth-background-holder"></div>
-                <div className="auth-background-mask"></div>
-            </div>
+        
+       <form className="col-sm-3 offset-sm-4" onSubmit={SubmitHandler}>
+        <h1>Forgot Password</h1>
 
-            <div className="col-12 col-md-7 col-lg-6 auth-main-col text-center">
-                <div className="d-flex flex-column align-content-end">
-                    <div className="auth-body mx-auto">
-                        <p>Forgot Password</p>
-                        <div className="auth-form-container text-start">
-                            <form className="auth-form" method="POST" onSubmit={forgotPassword} autoComplete={'off'}>
-                                <div className="email mb-3">
-                                    <input type="email"
-                                        className={`form-control ${validate.validate && validate.validate.email ? 'is-invalid ' : ''}`}
-                                        id="email"
-                                        name="email"
-                                        value={email}
-                                        placeholder="Email"
-                                        onChange={(e) => setEmail(e.target.value)}
-                                    />
-
-                                    <div className={`invalid-feedback text-start ${(validate.validate && validate.validate.email) ? 'd-block' : 'd-none'}`} >
-                                        {(validate.validate && validate.validate.email) ? validate.validate.email[0] : ''}
-                                    </div>
-                                </div>
-                                
-                                <div className="text-center">
-                                    <button type="submit" className="btn btn-primary w-100 theme-btn mx-auto">Forgot Password</button>
-                                </div>
-                            </form>
-
-                            <hr />
-                            <div className="auth-option text-center pt-2"><Link className="text-link" to="/SignInform" >Back to Login</Link></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    );
-}
+        <input type='email' placeholder="Email" ref={EnteredEmailRef}   className="form-control" onChange={(e)=>setEmail(e.target.value)} />
+        <br />
+        <button className="btn btn-primary">Send Reset Email</button>
+        
+       </form>
+       
+       
+    )
+    }
 
 export default ForgotPassword;
